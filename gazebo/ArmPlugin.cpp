@@ -43,7 +43,7 @@
 //#define INPUT_WIDTH   512
 //#define INPUT_HEIGHT  512
 #define OPTIMIZER "RMSprop"
-#define LEARNING_RATE 0.01f
+#define LEARNING_RATE 0.03f
 #define REPLAY_MEMORY 10000
 #define BATCH_SIZE 8
 #define USE_LSTM true
@@ -56,7 +56,7 @@
 */
 
 #define REWARD_WIN  100.0f
-#define REWARD_LOSS -100.0f
+#define REWARD_LOSS -1000.0f
 
 // Define Object Names
 #define WORLD_NAME "arm_world"
@@ -72,9 +72,10 @@
 #define ANIMATION_STEPS 1000
 
 // Set Debug Mode
-#define DEBUG false
-#define DEBUG2 false // TODO DELETE
-#define DEBUG3 true // TODO DELETE
+#define DEBUG true
+#define DEBUG2 true // TODO DELETE
+#define DEBUG3 false // TODO DELETE
+#define DEBUG4 false // TODO DELETE
 
 // Lock base rotation DOF (Add dof in header file if off)
 #define LOCKBASE true
@@ -111,7 +112,8 @@ ArmPlugin::ArmPlugin() : ModelPlugin(), cameraNode(new gazebo::transport::Node()
 	inputRawWidth    = 0;
 	inputRawHeight   = 0;
 	actionJointDelta = 0.15f;
-	actionVelDelta   = 0.1f;
+	//actionVelDelta   = 0.1f;
+	actionVelDelta   = 0.025f;
 	maxEpisodeLength = 100;
 	episodeFrames    = 0;
 
@@ -253,7 +255,9 @@ void ArmPlugin::onCameraMsg(ConstImageStampedPtr &_msg)
 	memcpy(inputBuffer[0], _msg->image().data().c_str(), inputBufferSize);
 	newState = true;
 
-	if(DEBUG){printf("camera %i x %i  %i bpp  %i bytes\n", width, height, bpp, size);}
+	//TODO
+	//if(DEBUG){printf("camera %i x %i  %i bpp  %i bytes\n", width, height, bpp, size);}
+	if(DEBUG4){printf("camera %i x %i  %i bpp  %i bytes\n", width, height, bpp, size);}
 
 }
 
@@ -281,7 +285,7 @@ void ArmPlugin::onCollisionMsg(ConstContactsPtr &contacts)
 		if( strcmp(contacts->contact(i).collision2().c_str(), COLLISION_FILTER) == 0 )
 			continue;
 
-		if(DEBUG3){std::cout << "Collision between[" << contacts->contact(i).collision1()
+		if(DEBUG){std::cout << "Collision between[" << contacts->contact(i).collision1()
 			     << "] and [" << contacts->contact(i).collision2() << "]\n";}
 
 
@@ -293,7 +297,7 @@ void ArmPlugin::onCollisionMsg(ConstContactsPtr &contacts)
 		bool collisionCheck = true;
 		if (collisionCheck)
 		{
-			rewardHistory = REWARD_WIN;
+			rewardHistory = (2.0 * REWARD_WIN) - episodeFrames;
 			newReward  = true;
 			endEpisode = true;
 
@@ -333,7 +337,9 @@ bool ArmPlugin::updateAgent()
 		return false;
 	}
 
-	if(DEBUG){printf("ArmPlugin - agent selected action %i\n", action);}
+	// TODO
+	//if(DEBUG){printf("ArmPlugin - agent selected action %i\n", action);}
+	if(DEBUG4){printf("ArmPlugin - agent selected action %i\n", action);}
 
 
 
@@ -348,8 +354,8 @@ bool ArmPlugin::updateAgent()
 	*/
 	// TODO - Set joint velocity based on whether action is even or odd.
 	float velocity = vel[action/2] + ((action % 2) * 2 - 1) * actionVelDelta;
-	if (DEBUG2) {printf("action %i; v:%f, a/2: %i; vel[a/2]:%f; sign:%i; avd:%f \n",
-		action, velocity, action/2, vel[action/2], ((action % 2) * 2 - 1), actionVelDelta);}
+	if (DEBUG) {printf("EF:%i, action %i; v:%f, a/2: %i; vel[a/2]:%f; sign:%i; avd:%f \n",
+		episodeFrames, action, velocity, action/2, vel[action/2], ((action % 2) * 2 - 1), actionVelDelta);}
 	//float velocity = 0.0;
 
 	if( velocity < VELOCITY_MIN )
@@ -470,7 +476,9 @@ bool ArmPlugin::updateJoints()
 		// update the AI agent when new camera frame is ready
 		episodeFrames++;
 
-		if(DEBUG){printf("episode frame = %i\n", episodeFrames);}
+		//TODO
+		//if(DEBUG){printf("episode frame = %i\n", episodeFrames);}
+		if(DEBUG4){printf("episode frame = %i\n", episodeFrames);}
 
 		// reset camera ready flag
 		newState = false;
@@ -612,11 +620,26 @@ void ArmPlugin::OnUpdate(const common::UpdateInfo& updateInfo)
 		if(checkGroundContact)
 		{
 
-			if(DEBUG){printf("GROUND CONTACT, EOE\n");}
+			//if(DEBUG){printf("GROUND CONTACT, EOE\n");}
+			if(DEBUG){
+				printf("GROUND CONTACT, EOE; minZ:%f\n", min_gripZ);
+				printf("BOX:\n");
+				std::cout<<gripBBox<<std::endl;
+			}
 
 			rewardHistory = REWARD_LOSS;
 			newReward     = true;
 			endEpisode    = true;
+		}
+		else if (min_gripZ <= groundContact * 2.0) {
+			float groundNear = (min_gripZ - groundContact) / groundContact;
+			rewardHistory = REWARD_LOSS * groundNear;
+			newReward     = true;
+			if(DEBUG) {
+				printf("GROUND NEAR minZ:%f; groundNear:%f\n", min_gripZ, groundNear);
+				printf("BOX:\n");
+				std::cout<<gripBBox<<std::endl;
+			}
 		}
 
 
@@ -639,8 +662,19 @@ void ArmPlugin::OnUpdate(const common::UpdateInfo& updateInfo)
 
 				// compute the smoothed moving average of the delta of the distance to the goal
 				avgGoalDelta  = avgGoalDelta * ALPHA + distDelta * (1.0 - ALPHA);
-				rewardHistory = avgGoalDelta * REWARD_WIN;
+				float rewardDistance = avgGoalDelta * REWARD_WIN;
+				float rewardFrame = ((float)episodeFrames / maxEpisodeLength);
+				rewardHistory = rewardDistance - rewardFrame;
 				newReward     = true;
+				if(DEBUG){
+					printf("dd:%f; aGD:%f; rH:%f; eF:%d; rd:%f; rF:%f\n",
+						distDelta,
+						avgGoalDelta,
+						rewardHistory,
+						episodeFrames,
+						rewardDistance,
+						rewardFrame);
+				}
 			}
 
 			lastGoalDistance = distGoal;
