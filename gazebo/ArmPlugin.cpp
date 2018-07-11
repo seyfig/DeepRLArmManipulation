@@ -48,7 +48,7 @@
 #define BATCH_SIZE 8
 #define USE_LSTM true
 #define LSTM_SIZE 32
-#define NUM_ACTIONS 6
+#define NUM_ACTIONS 7
 
 /*
 / TODO - Define Reward Parameters
@@ -56,12 +56,13 @@
 */
 
 #define REWARD_WIN  100.0f
-#define REWARD_LOSS -1000.0f
+#define REWARD_LOSS -10.0f
 
 // Define Object Names
 #define WORLD_NAME "arm_world"
 #define PROP_NAME  "tube"
 #define GRIP_NAME  "gripper_middle"
+#define JOINT2_NAME "joint2"
 
 // Define Collision Parameters
 #define COLLISION_FILTER "ground_plane::link::collision"
@@ -331,7 +332,7 @@ bool ArmPlugin::updateAgent()
 	}
 
 	// make sure the selected action is in-bounds
-	if( action < 0 || action >= DOF * 2 )
+	if( action < 0 || action >= NUM_ACTIONS )
 	{
 		printf("ArmPlugin - agent selected invalid action, %i\n", action);
 		return false;
@@ -340,6 +341,7 @@ bool ArmPlugin::updateAgent()
 	// TODO
 	//if(DEBUG){printf("ArmPlugin - agent selected action %i\n", action);}
 	if(DEBUG4){printf("ArmPlugin - agent selected action %i\n", action);}
+
 
 
 
@@ -353,18 +355,30 @@ bool ArmPlugin::updateAgent()
 	/
 	*/
 	// TODO - Set joint velocity based on whether action is even or odd.
-	float velocity = vel[action/2] + ((action % 2) * 2 - 1) * actionVelDelta;
-	if (DEBUG) {printf("EF:%i, action %i; v:%f, a/2: %i; vel[a/2]:%f; sign:%i; avd:%f \n",
-		episodeFrames, action, velocity, action/2, vel[action/2], ((action % 2) * 2 - 1), actionVelDelta);}
-	//float velocity = 0.0;
+	// DONT CHANGE ANY VELOCITY
+	if (action == 6) {
+		printf("DONT CHANGE ANY VELOCITY\n");
+	}
+	else
+	{
+		float velocity = vel[action/2] + ((action % 2) * 2 - 1) * actionVelDelta;
+		if (DEBUG) {printf("EF:%i, action %i; v:%f, a/2: %i; vel[a/2]:%f; sign:%i; avd:%f \n",
+			episodeFrames, action, velocity, action/2, vel[action/2], ((action % 2) * 2 - 1), actionVelDelta);}
+		//float velocity = 0.0;
 
-	if( velocity < VELOCITY_MIN )
-		velocity = VELOCITY_MIN;
+		if( velocity < VELOCITY_MIN )
+			velocity = VELOCITY_MIN;
 
-	if( velocity > VELOCITY_MAX )
-		velocity = VELOCITY_MAX;
+		if( velocity > VELOCITY_MAX )
+			velocity = VELOCITY_MAX;
 
-	vel[action/2] = velocity;
+		if (fabs(velocity) < actionVelDelta / 100.0) {
+			printf("!!! SET VEL TO ZERO from %f\n", velocity);
+			velocity = 0.0;
+		}
+
+		vel[action/2] = velocity;
+	}
 
 	for( uint32_t n=0; n < DOF; n++ )
 	{
@@ -597,6 +611,7 @@ void ArmPlugin::OnUpdate(const common::UpdateInfo& updateInfo)
 		// get the bounding box for the prop object
 		const math::Box& propBBox = prop->model->GetBoundingBox();
 		physics::LinkPtr gripper  = model->GetLink(GRIP_NAME);
+		physics::LinkPtr joint2  = model->GetLink(JOINT2_NAME);
 
 		if( !gripper )
 		{
@@ -604,12 +619,22 @@ void ArmPlugin::OnUpdate(const common::UpdateInfo& updateInfo)
 			return;
 		}
 
+		if( !joint2 )
+		{
+			printf("ArmPlugin - failed to find Joint2 '%s'\n", JOINT2_NAME);
+			return;
+		}
+
+
 		// get the bounding box for the gripper
 		const math::Box& gripBBox = gripper->GetBoundingBox();
+		const math::Box& j2BBox = joint2->GetBoundingBox();
 		const float groundContact = 0.05f;
 
 		float min_gripZ = gripBBox.min.z;
+		float min_j2Z = j2BBox.min.z;
 		bool checkGroundContact = groundContact >= min_gripZ;
+		bool checkGroundContactJ2Z = groundContact >= min_j2Z;
 
 		/*
 		/ TODO - set appropriate Reward for robot hitting the ground.
@@ -621,22 +646,65 @@ void ArmPlugin::OnUpdate(const common::UpdateInfo& updateInfo)
 		{
 
 			//if(DEBUG){printf("GROUND CONTACT, EOE\n");}
+			float contactZ = (groundContact - min_gripZ) / groundContact;
+
+
+			rewardHistory = REWARD_LOSS * (1+contactZ);
+			newReward     = true;
+			endEpisode    = true;
+
+
 			if(DEBUG){
-				printf("GROUND CONTACT, EOE; minZ:%f\n", min_gripZ);
+				printf("GROUND CONTACT GRIPPER, EOE; minZ:%f; cZ:%f; rH:%f\n",
+					min_gripZ,
+					contactZ,
+					rewardHistory);
 				printf("BOX:\n");
 				std::cout<<gripBBox<<std::endl;
 			}
+		}
+		else if(checkGroundContactJ2Z)
+		{
 
-			rewardHistory = REWARD_LOSS;
+			//if(DEBUG){printf("GROUND CONTACT, EOE\n");}
+			float contactZ = (groundContact - min_j2Z) / groundContact;
+
+
+			rewardHistory = REWARD_LOSS * (1+contactZ);
 			newReward     = true;
 			endEpisode    = true;
+
+
+			if(DEBUG){
+				printf("!!!!!\nGROUND CONTACT JOINT2, EOE; minZGRIP:%f; minZJ:%f; cZ:%f; rH:%f\n",
+					min_gripZ,
+					min_j2Z,
+					contactZ,
+					rewardHistory);
+				printf("BOX:\n");
+				std::cout<<gripBBox<<std::endl;
+			}
 		}
 		else if (min_gripZ <= groundContact * 2.0) {
 			float groundNear = (min_gripZ - groundContact) / groundContact;
 			rewardHistory = REWARD_LOSS * groundNear;
 			newReward     = true;
 			if(DEBUG) {
-				printf("GROUND NEAR minZ:%f; groundNear:%f\n", min_gripZ, groundNear);
+				printf("GROUND NEAR GRIPPER minZ:%f; groundNear:%f\n", min_gripZ, groundNear);
+				printf("BOX:\n");
+				std::cout<<gripBBox<<std::endl;
+			}
+		}
+
+		else if (min_gripZ <= groundContact * 2.0) {
+			float groundNear = (min_j2Z - groundContact) / groundContact;
+			rewardHistory = REWARD_LOSS * groundNear;
+			newReward     = true;
+			if(DEBUG) {
+				printf("!!!!!\nGROUND NEAR JOINT2 minZGRIP:%f; minZJ:%f; groundNear:%f\n",
+					min_gripZ,
+					min_j2Z,
+					groundNear);
 				printf("BOX:\n");
 				std::cout<<gripBBox<<std::endl;
 			}
@@ -649,7 +717,7 @@ void ArmPlugin::OnUpdate(const common::UpdateInfo& updateInfo)
 		*/
 
 
-		if(!checkGroundContact)
+		if(!checkGroundContact && !checkGroundContactJ2Z)
 		{
 			const float distGoal = BoxDistance(propBBox, gripBBox); // compute the reward from distance to the goal
 
