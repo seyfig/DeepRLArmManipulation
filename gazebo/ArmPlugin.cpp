@@ -43,12 +43,12 @@
 //#define INPUT_WIDTH   512
 //#define INPUT_HEIGHT  512
 #define OPTIMIZER "RMSprop"
-#define LEARNING_RATE 0.05f
+#define LEARNING_RATE 0.005f
 #define REPLAY_MEMORY 10000
 #define BATCH_SIZE 8
 #define USE_LSTM true
 #define LSTM_SIZE 16
-#define NUM_ACTIONS 6
+#define NUM_ACTIONS 3
 
 /*
 / TODO - Define Reward Parameters
@@ -68,6 +68,7 @@
 #define COLLISION_FILTER "ground_plane::link::collision"
 #define COLLISION_ITEM   "tube::tube_link::tube_collision"
 #define COLLISION_POINT  "arm::gripperbase::gripper_link"
+#define COLLISION_GRIPMID "arm::gripper_middle::middle_collision"
 
 // Animation Steps
 #define ANIMATION_STEPS 1000
@@ -131,6 +132,8 @@ ArmPlugin::ArmPlugin() : ModelPlugin(), cameraNode(new gazebo::transport::Node()
 	avgGoalDelta     = 0.0f;
 	successfulGrabs = 0;
 	totalRuns       = 0;
+	maxRew = 0.0f;
+	maxRd = 0.0f;
 }
 
 
@@ -288,8 +291,8 @@ void ArmPlugin::onCollisionMsg(ConstContactsPtr &contacts)
 		if( strcmp(contacts->contact(i).collision2().c_str(), COLLISION_FILTER) == 0 )
 			continue;
 
-		if(DEBUG){std::cout << "Collision between[" << contacts->contact(i).collision1()
-			     << "] and [" << contacts->contact(i).collision2() << "]\n";}
+		if(DEBUG){std::cout <<"COLL SIZE:"<<contacts->contact_size()<<"; i:"<<i<< "Collision between[" << contacts->contact(i).collision1()
+			     << "] and [" << contacts->contact(i).collision2() << "]";}
 
 
 		/*
@@ -297,16 +300,25 @@ void ArmPlugin::onCollisionMsg(ConstContactsPtr &contacts)
 		/
 		*/
 
-		bool collisionCheck = true;
-		if (collisionCheck)
-		{
+		if (strcmp(contacts->contact(i).collision2().c_str(), COLLISION_GRIPMID) == 0) {
+			if(DEBUG){std::cout<<" 4 * REWARD "<<std::endl;;}
+			rewardHistory = (4.0 * REWARD_WIN) - episodeFrames;
+			newReward  = true;
+			endEpisode = true;
+		}
+		else if(strcmp(contacts->contact(i).collision2().c_str(), COLLISION_POINT) == 0) {
+			if(DEBUG){std::cout<<" 2 * REWARD "<<std::endl;;}
 			rewardHistory = (2.0 * REWARD_WIN) - episodeFrames;
 			newReward  = true;
 			endEpisode = true;
-
-			return;
 		}
-
+		else {
+			if(DEBUG){std::cout<<" LOSS "<<std::endl;;}
+			rewardHistory = REWARD_LOSS;
+			newReward     = true;
+			endEpisode    = true;
+		}
+		return;
 	}
 }
 
@@ -344,7 +356,9 @@ bool ArmPlugin::updateAgent()
 	//if(DEBUG){printf("ArmPlugin - agent selected action %i\n", action);}
 	if(DEBUG4){printf("ArmPlugin - agent selected action %i\n", action);}
 
-
+	//if (action == 0) action = 3;
+	//else if (action == 1)
+	action = 1 + 2 * action;
 
 
 #if VELOCITY_CONTROL
@@ -412,11 +426,8 @@ bool ArmPlugin::updateAgent()
 
 	float joint = ref[action/2] + ((action % 2) * 2 - 1) * actionJointDelta; // TODO - Set joint position based on whether action is even or odd.
 	if (DEBUG) {
-		printf("EF:%i, A:%i; j:%.4f, I:%i; Sign:%i; vel:%.4f,%.4f,%.4f; P:%.4f,%.4f,%.4f -",
+		printf("EF:%i, A:%i; j:%.4f, I:%i; S:%i; P:%.3f,%.3f,%.3f -",
 		episodeFrames, action, joint, action/2, ((action % 2) * 2 - 1),
-		vel[0],
-		vel[1],
-		vel[2],
 		ref[0],
 		ref[1],
 		ref[2]);
@@ -571,6 +582,41 @@ static float BoxDistance(const math::Box& a, const math::Box& b)
 	return sqrtf(sqrDist);
 }
 
+// compute the distance between two bounding boxes
+static float BoxManDistance(const math::Box& a, const math::Box& b)
+{
+	float sqrDist = 0.0f;
+
+	if( b.max.x < a.min.x )
+	{
+		sqrDist += fabs(b.max.x - a.min.x);
+	}
+	else if( b.min.x > a.max.x )
+	{
+		sqrDist += fabs(b.min.x - a.max.x);
+	}
+
+	if( b.max.y < a.min.y )
+	{
+		sqrDist += fabs(b.max.y - a.min.y);
+	}
+	else if( b.min.y > a.max.y )
+	{
+		sqrDist += fabs(b.min.y - a.max.y);
+	}
+
+	if( b.max.z < a.min.z )
+	{
+		sqrDist += fabs(b.max.z - a.min.z);
+	}
+	else if( b.min.z > a.max.z )
+	{
+		sqrDist += fabs(b.min.z - a.max.z);
+	}
+
+	return sqrDist;
+}
+
 
 // called by the world update start event
 void ArmPlugin::OnUpdate(const common::UpdateInfo& updateInfo)
@@ -675,7 +721,7 @@ void ArmPlugin::OnUpdate(const common::UpdateInfo& updateInfo)
 
 		if(!checkGroundContact)
 		{
-			const float distGoal = BoxDistance(propBBox, gripBBox); // compute the reward from distance to the goal
+			const float distGoal = BoxManDistance(propBBox, gripBBox); // compute the reward from distance to the goal
 
 			if(DEBUG5){printf("distance('%s', '%s') = %f\n", gripper->GetName().c_str(), prop->model->GetName().c_str(), distGoal);}
 
@@ -704,16 +750,30 @@ void ArmPlugin::OnUpdate(const common::UpdateInfo& updateInfo)
 					rewardHistory = avgGoalDelta * REWARD_WIN * 10.0;
 				}
 				*/
-				rewardHistory = avgGoalDelta * REWARD_WIN;
+				//float rewardDelta = avgGoalDelta * REWARD_WIN;
+				float rewardDelta = 0.0;
+				//float rewardDist = (sqrtf(lastGoalDistance) - sqrtf(distGoal)) * 0.25f * REWARD_WIN;
+				const float worldWidth = 10.f;
+				//float rewardDist = 8.0 * (exp(-(distGoal/worldWidth/1.5f)));
+				float rewardDist = REWARD_WIN  / 25.0 * (-distGoal);
+				rewardHistory = rewardDelta + rewardDist;
+
+				//if (rewardHistory > maxRew) maxRew = rewardHistory;
+				maxRew += rewardDelta;
+				maxRd += rewardDist;
 				newReward     = true;
 				if(DEBUG){
-					printf("eF:%d; dd:%.4f; aGD:%.4f; dG:%.4f; lGD:%.4f; rH:%.4f --",
+					printf("eF:%d; dd:%.3f; aGD:%.3f; dG:%.3f; lGD:%.3f; rH:%.3f; rDl:%.3f; rDs:%.3f; MX:%.3f | %.3f --",
 						episodeFrames,
 						distDelta,
 						avgGoalDelta,
 						distGoal,
 						lastGoalDistance,
-						rewardHistory);
+						rewardHistory,
+						rewardDelta,
+						rewardDist,
+						maxRew,
+						maxRd);
 					/*
 					printf("eF:%d; dd:%f; aGD:%f; dG:%f; lGD:%f; rH:%f; rd:%f; rF:%f; rwd2:%f\n",
 						episodeFrames,
@@ -727,6 +787,10 @@ void ArmPlugin::OnUpdate(const common::UpdateInfo& updateInfo)
 						rwd2);
 						*/
 				}
+
+				if (rewardHistory > REWARD_WIN - 1) {
+					rewardHistory = REWARD_WIN - 1;
+				}
 			}
 
 			lastGoalDistance = distGoal;
@@ -736,7 +800,7 @@ void ArmPlugin::OnUpdate(const common::UpdateInfo& updateInfo)
 	// issue rewards and train DQN
 	if( newReward && agent != NULL )
 	{
-		if(DEBUG){printf("REW %f, EO=%s  %s\n", rewardHistory, endEpisode ? "T" : "F", (rewardHistory > 0.1f) ? "POS+" :(rewardHistory > 0.0f) ? "POS" : (rewardHistory < 0.0f) ? "    NEG" : "       ZERO");}
+		if(DEBUG){printf("REW %.3f, EO=%s  %s\n", rewardHistory, endEpisode ? "T" : "F", (rewardHistory > 0.1f) ? "POS+" :(rewardHistory > 0.0f) ? "POS" : (rewardHistory < 0.0f) ? "    NEG" : "       ZERO");}
 		agent->NextReward(rewardHistory, endEpisode);
 
 		// reset reward indicator
@@ -751,6 +815,8 @@ void ArmPlugin::OnUpdate(const common::UpdateInfo& updateInfo)
 			episodeFrames    = 0;
 			lastGoalDistance = 0.0f;
 			avgGoalDelta     = 0.0f;
+			maxRew = 0.0f;
+			maxRd = 0.0f;
 
 			// track the number of wins and agent accuracy
 			if( rewardHistory >= REWARD_WIN )
