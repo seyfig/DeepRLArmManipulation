@@ -41,10 +41,10 @@ namespace gazebo
  */
 class ArmPlugin : public ModelPlugin
 {
-public:
-	ArmPlugin();
+public: 
+	ArmPlugin(); 
 
-	virtual void Load(physics::ModelPtr _parent, sdf::ElementPtr /*_sdf*/);
+	virtual void Load(physics::ModelPtr _parent, sdf::ElementPtr /*_sdf*/); 
 	virtual void OnUpdate(const common::UpdateInfo & /*_info*/);
 
 	float resetPosition( uint32_t dof );  // center servo positions
@@ -72,12 +72,12 @@ private:
 	void*    inputBuffer[2];		// [0] for CPU and [1] for GPU
 	size_t   inputBufferSize;
 	size_t   inputRawWidth;
-	size_t   inputRawHeight;
+	size_t   inputRawHeight;	
 	float    jointRange[DOF][2];	// min/max range of each arm joint
 	float    actionJointDelta;	// amount of offset caused to a joint by an action
 	float    actionVelDelta;		// amount of velocity offset caused to a joint by an action
 	int	    maxEpisodeLength;	// maximum number of frames to win episode (or <= 0 for unlimited)
-	int      episodeFrames;		// frame counter for the current episode
+	int      episodeFrames;		// frame counter for the current episode	
 	bool     testAnimation;		// true for test animation mode
 	bool     loopAnimation;		// loop the test animation while true
 	uint32_t animationStep;
@@ -89,9 +89,6 @@ private:
 	int      runHistoryIdx;
 	int	    runHistoryMax;
 	bool     runHistory[20];
-	float maxRew; // TODOD
-	float maxRd; // TODODD
-	float maxX; // TODODD
 
 	physics::ModelPtr model;
 	event::ConnectionPtr updateConnection;
