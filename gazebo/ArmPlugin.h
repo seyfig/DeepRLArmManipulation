@@ -90,7 +90,8 @@ private:
 	int	    runHistoryMax;
 	bool     runHistory[20];
 	float maxRew; // TODOD
-	float maxRd; // TODOD
+	float maxRd; // TODODD
+	float maxX; // TODODD
 
 	physics::ModelPtr model;
 	event::ConnectionPtr updateConnection;
