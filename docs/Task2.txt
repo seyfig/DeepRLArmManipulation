@@ -1,10 +1,10 @@
- 
+
 configuring gazebo7 plugin paths
 previous GAZEBO_PLUGIN_PATH=
 script directory /dd/drl/build/x86_64/bin
 plugin path /dd/drl/build/x86_64/bin/../lib
 new GAZEBO_PLUGIN_PATH=/dd/drl/build/x86_64/bin/../lib:
- 
+
 starting gazebo7 simulator
 [1;32m[Msg] [0m[1;32mWaiting for master.[0m[1;32m
 [0m[1;32m[0m[1;32m[Msg] [0m[1;32mConnected to gazebo master @ [0m[1;32mhttp://127.0.0.1:11345[0m[1;32m
@@ -138,7 +138,7 @@ E:20, A:2; j:-0.05, I:1; S:-1; P:1.35,0.10,0.45 | dd:-0.088; aGD:-0.022; dH:0.91
 E:21, A:1; j:1.50, I:0; S:1; P:1.35,-0.05,0.45 | dd:0.167; aGD:0.120; dH:0.737 d:0.364; dCM:0.681; dG:0.364; lGD:0.532; rT:6.00; rD:-0.68; rF:0.00; MX:73.81 -34.22 88.45| R 5.320, EO=F  P+
 E:22, A:1; j:1.65, I:0; S:1; P:1.50,-0.05,0.45 | dd:0.122; aGD:0.122; dH:0.525 d:0.242; dCM:0.466; dG:0.242; lGD:0.364; rT:6.08; rD:-0.47; rF:-459.20; MX:79.88 -34.69 -370.75| R -453.593, EO=F  N
 E:23, A:3; j:0.10, I:1; S:1; P:1.65,-0.05,0.45 | dd:0.022; aGD:0.047; dH:0.497 d:0.221; dCM:0.341; dG:0.221; lGD:0.242; rT:2.33; rD:-0.34; rF:-1006.72; MX:82.21 -35.03 -1377.47| R -1004.730, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
 Current Accuracy:  0.0000 (000 of 002)  (reward=-100.00 LOSS)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.965 d:1.516; dCM:2.090; dG:1.516; lGD:1.661; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.336, EO=F  P+
@@ -176,9 +176,9 @@ E:14, A:1; j:0.90, I:0; S:1; P:0.75,0.70,-0.45 | dd:0.183; aGD:0.131; dH:0.872 d
 E:15, A:1; j:1.05, I:0; S:1; P:0.90,0.70,-0.45 | dd:0.190; aGD:0.175; dH:0.714 d:0.382; dCM:0.660; dG:0.382; lGD:0.572; rT:8.76; rD:-0.66; rF:0.00; MX:63.90 -18.43 183.60| R 8.101, EO=F  P+
 E:16, A:1; j:1.20, I:0; S:1; P:1.05,0.70,-0.45 | dd:0.173; aGD:0.174; dH:0.520 d:0.209; dCM:0.471; dG:0.209; lGD:0.382; rT:8.69; rD:-0.47; rF:-334.77; MX:72.59 -18.90 -151.17| R -326.558, EO=F  N
 E:17, A:1; j:1.35, I:0; S:1; P:1.20,0.70,-0.45 | dd:0.074; aGD:0.099; dH:0.419 d:0.135; dCM:0.251; dG:0.135; lGD:0.209; rT:4.95; rD:-0.25; rF:-1141.96; MX:77.54 -19.15 -1293.13| R -1137.262, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 Current Accuracy:  0.0000 (000 of 004)  (reward=-100.00 LOSS)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.972 d:1.520; dCM:2.097; dG:1.520; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.324, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.674 d:1.370; dCM:1.800; dG:1.370; lGD:1.520; rT:6.97; rD:-1.80; rF:0.00; MX:12.40 -3.90 0.00| R 5.173, EO=F  P+
@@ -197,7 +197,7 @@ E:15, A:2; j:0.25, I:1; S:-1; P:1.35,0.40,-0.30 | dd:-0.093; aGD:-0.039; dH:0.72
 E:16, A:2; j:0.10, I:1; S:-1; P:1.35,0.25,-0.30 | dd:-0.090; aGD:-0.077; dH:0.827 d:0.444; dCM:0.771; dG:0.444; lGD:0.354; rT:-3.85; rD:-0.77; rF:0.00; MX:62.33 -15.57 -238.62| R -4.621, EO=F  N
 E:17, A:1; j:1.50, I:0; S:1; P:1.35,0.10,-0.30 | dd:0.153; aGD:0.095; dH:0.632 d:0.291; dCM:0.573; dG:0.291; lGD:0.444; rT:4.77; rD:-0.57; rF:-308.29; MX:67.10 -16.14 -546.92| R -304.092, EO=F  N
 E:18, A:1; j:1.65, I:0; S:1; P:1.50,0.10,-0.30 | dd:0.070; aGD:0.077; dH:0.497 d:0.221; dCM:0.342; dG:0.221; lGD:0.291; rT:3.83; rD:-0.34; rF:-1004.73; MX:70.92 -16.48 -1551.64| R -1001.240, EO=F  N
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
 Current Accuracy:  0.0000 (000 of 005)  (reward=-100.00 LOSS)
 E:1, A:5; j:0.15, I:2; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.15 | dd:0.138; aGD:0.104; dH:2.249 d:1.661; dCM:2.372; dG:1.661; lGD:1.800; rT:5.19; rD:-2.37; rF:0.00; MX:5.19 -2.37 0.00| R 2.814, EO=F  P+
@@ -239,7 +239,7 @@ E:11, A:1; j:1.20, I:0; S:1; P:1.05,0.40,-0.00 | dd:0.179; aGD:0.179; dH:0.794 d
 E:12, A:3; j:0.55, I:1; S:1; P:1.20,0.40,-0.00 | dd:0.109; aGD:0.126; dH:0.664 d:0.316; dCM:0.610; dG:0.316; lGD:0.425; rT:6.32; rD:-0.61; rF:0.00; MX:65.34 -15.95 89.77| R 5.711, EO=F  P+
 E:13, A:3; j:0.70, I:1; S:1; P:1.20,0.55,-0.00 | dd:0.107; aGD:0.112; dH:0.520 d:0.209; dCM:0.471; dG:0.209; lGD:0.316; rT:5.61; rD:-0.47; rF:-334.58; MX:70.96 -16.42 -244.80| R -329.436, EO=F  N
 E:14, A:1; j:1.35, I:0; S:1; P:1.20,0.70,-0.00 | dd:0.074; aGD:0.084; dH:0.419 d:0.135; dCM:0.251; dG:0.135; lGD:0.209; rT:4.19; rD:-0.25; rF:-1139.46; MX:75.14 -16.67 -1384.27| R -1135.527, EO=F  N
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
 Current Accuracy:  0.0000 (000 of 007)  (reward=-100.00 LOSS)
 E:1, A:2; j:0.10, I:1; S:-1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.15, I:0; S:1; P:-0.00,0.10,0.00 | dd:0.135; aGD:0.101; dH:2.404 d:1.745; dCM:2.522; dG:1.745; lGD:1.881; rT:5.07; rD:-2.52; rF:0.00; MX:5.07 -2.52 0.00| R 2.551, EO=F  P+
@@ -284,9 +284,9 @@ E:10, A:5; j:0.15, I:2; S:1; P:1.35,0.25,0.00 | dd:-0.000; aGD:0.043; dH:0.717 d
 E:11, A:3; j:0.40, I:1; S:1; P:1.35,0.25,0.15 | dd:0.092; aGD:0.080; dH:0.586 d:0.257; dCM:0.532; dG:0.257; lGD:0.350; rT:4.00; rD:-0.53; rF:-327.53; MX:68.84 -11.28 -244.50| R -324.068, EO=F  N
 E:12, A:3; j:0.55, I:1; S:1; P:1.35,0.40,0.15 | dd:0.076; aGD:0.077; dH:0.442 d:0.182; dCM:0.393; dG:0.182; lGD:0.257; rT:3.84; rD:-0.39; rF:-525.59; MX:72.68 -11.68 -770.09| R -522.136, EO=F  N
 E:13, A:3; j:0.70, I:1; S:1; P:1.35,0.55,0.15 | dd:0.048; aGD:0.055; dH:0.424 d:0.133; dCM:0.243; dG:0.133; lGD:0.182; rT:2.77; rD:-0.24; rF:-1232.59; MX:75.45 -11.92 -2002.68| R -1230.066, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 Current Accuracy:  0.0000 (000 of 009)  (reward=-100.00 LOSS)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.963 d:1.515; dCM:2.088; dG:1.515; lGD:1.660; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.339, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.665 d:1.365; dCM:1.791; dG:1.365; lGD:1.515; rT:6.98; rD:-1.79; rF:0.00; MX:12.41 -3.88 0.00| R 5.190, EO=F  P+
@@ -302,9 +302,9 @@ E:12, A:3; j:0.55, I:1; S:1; P:1.20,0.40,-0.00 | dd:0.109; aGD:0.103; dH:0.656 d
 E:13, A:3; j:0.70, I:1; S:1; P:1.20,0.55,-0.00 | dd:0.107; aGD:0.106; dH:0.511 d:0.203; dCM:0.463; dG:0.203; lGD:0.310; rT:5.29; rD:-0.46; rF:-343.45; MX:71.09 -13.13 -260.36| R -338.617, EO=F  N
 E:14, A:3; j:0.85, I:1; S:1; P:1.20,0.70,-0.00 | dd:0.096; aGD:0.098; dH:0.356 d:0.107; dCM:0.313; dG:0.107; lGD:0.203; rT:4.92; rD:-0.31; rF:-549.14; MX:76.01 -13.44 -809.50| R -544.527, EO=F  N
 E:15, A:3; j:1.00, I:1; S:1; P:1.20,0.85,-0.00 | dd:0.063; aGD:0.072; dH:0.330 d:0.044; dCM:0.156; dG:0.044; lGD:0.107; rT:3.60; rD:-0.16; rF:-1227.98; MX:79.61 -13.60 -2037.48| R -1224.536, EO=F  N
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.1000 (001 of 010)  (reward=+785.00 WIN)
 E:1, A:2; j:0.10, I:1; S:-1; P:0.00,0.25,0.00 | E:2, A:1; j:0.15, I:0; S:1; P:0.00,0.10,0.00 | dd:0.135; aGD:0.102; dH:2.399 d:1.743; dCM:2.518; dG:1.743; lGD:1.878; rT:5.08; rD:-2.52; rF:0.00; MX:5.08 -2.52 0.00| R 2.560, EO=F  P+
 E:3, A:3; j:0.25, I:1; S:1; P:0.15,0.10,0.00 | dd:0.081; aGD:0.086; dH:2.251 d:1.662; dCM:2.373; dG:1.662; lGD:1.743; rT:4.29; rD:-2.37; rF:0.00; MX:9.37 -4.89 0.00| R 1.920, EO=F  P+
@@ -326,9 +326,9 @@ E:18, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.15 | dd:0.118; aGD:0.082; dH:0.565 d
 E:19, A:5; j:0.00, I:2; S:1; P:1.05,0.85,-0.15 | dd:-0.000; aGD:0.020; dH:0.565 d:0.260; dCM:0.516; dG:0.260; lGD:0.260; rT:1.02; rD:-0.52; rF:-256.26; MX:80.55 -21.34 -763.76| R -255.755, EO=F  N
 E:20, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.00 | dd:0.118; aGD:0.093; dH:0.409 d:0.143; dCM:0.367; dG:0.143; lGD:0.260; rT:4.66; rD:-0.37; rF:-355.82; MX:85.22 -21.70 -1119.58| R -351.520, EO=F  N
 E:21, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.00 | dd:0.113; aGD:0.108; dH:0.246 d:0.030; dCM:0.210; dG:0.030; lGD:0.143; rT:5.39; rD:-0.21; rF:554.89; MX:90.60 -21.91 -564.68| R 560.067, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 779.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.1818 (002 of 011)  (reward=+779.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.962 d:1.515; dCM:2.087; dG:1.515; lGD:1.660; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.342, EO=F  P+
 E:3, A:0; j:0.15, I:0; S:-1; P:0.30,0.25,-0.00 | dd:-0.145; aGD:-0.081; dH:2.246 d:1.660; dCM:2.369; dG:1.660; lGD:1.515; rT:-4.07; rD:-2.37; rF:0.00; MX:1.36 -4.46 0.00| R -6.441, EO=F  N
@@ -346,9 +346,9 @@ E:14, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.116; dH:0.706 d
 E:15, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.117; aGD:0.117; dH:0.561 d:0.257; dCM:0.513; dG:0.257; lGD:0.374; rT:5.85; rD:-0.51; rF:-258.68; MX:68.18 -18.19 -168.33| R -253.339, EO=F  N
 E:16, A:1; j:1.20, I:0; S:1; P:1.05,0.85,-0.00 | dd:0.150; aGD:0.142; dH:0.355 d:0.107; dCM:0.312; dG:0.107; lGD:0.257; rT:7.09; rD:-0.31; rF:-551.20; MX:75.28 -18.50 -719.53| R -544.415, EO=F  N
 E:17, A:3; j:1.00, I:1; S:1; P:1.20,0.85,-0.00 | dd:0.063; aGD:0.083; dH:0.330 d:0.044; dCM:0.155; dG:0.044; lGD:0.107; rT:4.13; rD:-0.16; rF:-1237.93; MX:79.41 -18.66 -1957.46| R -1233.950, EO=F  N
-COLL SIZE:5; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:5; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 Current Accuracy:  0.1667 (002 of 012)  (reward=-100.00 LOSS)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:5; j:0.15, I:2; S:1; P:0.15,0.25,0.00 | dd:-0.000; aGD:-0.000; dH:2.250 d:1.662; dCM:2.372; dG:1.662; lGD:1.662; rT:-0.00; rD:-2.37; rF:0.00; MX:-0.00 -2.37 0.00| R -2.373, EO=F  N
 E:3, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.15 | dd:0.145; aGD:0.109; dH:1.966 d:1.517; dCM:2.091; dG:1.517; lGD:1.662; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -4.46 0.00| R 3.334, EO=F  P+
@@ -363,9 +363,9 @@ E:11, A:3; j:0.55, I:1; S:1; P:1.20,0.40,0.15 | dd:0.109; aGD:0.111; dH:0.658 d:
 E:12, A:3; j:0.70, I:1; S:1; P:1.20,0.55,0.15 | dd:0.107; aGD:0.108; dH:0.514 d:0.205; dCM:0.465; dG:0.205; lGD:0.312; rT:5.41; rD:-0.47; rF:-340.73; MX:71.05 -13.62 -257.77| R -335.790, EO=F  N
 E:13, A:3; j:0.85, I:1; S:1; P:1.20,0.70,0.15 | dd:0.097; aGD:0.100; dH:0.358 d:0.108; dCM:0.316; dG:0.108; lGD:0.205; rT:4.98; rD:-0.32; rF:-542.51; MX:76.02 -13.93 -800.28| R -537.848, EO=F  N
 E:14, A:3; j:1.00, I:1; S:1; P:1.20,0.85,0.15 | dd:0.064; aGD:0.073; dH:0.328 d:0.044; dCM:0.159; dG:0.044; lGD:0.108; rT:3.63; rD:-0.16; rF:-1197.15; MX:79.65 -14.09 -1997.43| R -1193.677, EO=F  N
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.2308 (003 of 013)  (reward=+786.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.971 d:1.519; dCM:2.096; dG:1.519; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.327, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.672 d:1.369; dCM:1.799; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.177, EO=F  P+
@@ -379,7 +379,7 @@ E:10, A:3; j:0.40, I:1; S:1; P:1.20,0.25,0.15 | dd:0.100; aGD:0.118; dH:0.791 d:
 E:11, A:1; j:1.35, I:0; S:1; P:1.20,0.40,0.15 | dd:0.163; aGD:0.152; dH:0.591 d:0.260; dCM:0.537; dG:0.260; lGD:0.423; rT:7.58; rD:-0.54; rF:-322.68; MX:67.65 -11.81 -239.88| R -315.632, EO=F  N
 E:12, A:3; j:0.55, I:1; S:1; P:1.35,0.40,0.15 | dd:0.077; aGD:0.096; dH:0.446 d:0.183; dCM:0.398; dG:0.183; lGD:0.260; rT:4.80; rD:-0.40; rF:-513.45; MX:72.45 -12.21 -753.34| R -509.056, EO=F  N
 E:13, A:3; j:0.70, I:1; S:1; P:1.35,0.55,0.15 | dd:0.049; aGD:0.061; dH:0.420 d:0.134; dCM:0.248; dG:0.134; lGD:0.183; rT:3.03; rD:-0.25; rF:-1169.83; MX:75.48 -12.46 -1923.16| R -1167.041, EO=F  N
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
 Current Accuracy:  0.2143 (003 of 014)  (reward=-100.00 LOSS)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.969 d:1.518; dCM:2.094; dG:1.518; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.329, EO=F  P+
@@ -399,9 +399,9 @@ E:15, A:4; j:-0.45, I:2; S:-1; P:1.05,1.00,-0.30 | dd:0.000; aGD:0.002; dH:0.410
 E:16, A:4; j:-0.60, I:2; S:-1; P:1.05,1.00,-0.45 | dd:-0.000; aGD:0.000; dH:0.410 d:0.144; dCM:0.368; dG:0.144; lGD:0.144; rT:0.02; rD:-0.37; rF:-354.21; MX:75.95 -13.33 -1943.63| R -354.557, EO=F  N
 E:17, A:4; j:-0.75, I:2; S:-1; P:1.05,1.00,-0.60 | dd:-0.000; aGD:0.000; dH:0.410 d:0.144; dCM:0.368; dG:0.144; lGD:0.144; rT:0.01; rD:-0.37; rF:-354.21; MX:75.96 -13.70 -2297.84| R -354.574, EO=F  N
 E:18, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.75 | dd:0.112; aGD:0.084; dH:0.247 d:0.031; dCM:0.211; dG:0.031; lGD:0.144; rT:4.21; rD:-0.21; rF:551.11; MX:80.17 -13.91 -1746.73| R 555.110, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 782.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.2667 (004 of 015)  (reward=+782.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.664; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.329, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.672 d:1.369; dCM:1.798; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.179, EO=F  P+
@@ -420,9 +420,9 @@ E:15, A:3; j:0.25, I:1; S:1; P:1.35,0.10,0.30 | dd:0.089; aGD:0.092; dH:0.721 d:
 E:16, A:3; j:0.40, I:1; S:1; P:1.35,0.25,0.30 | dd:0.093; aGD:0.093; dH:0.591 d:0.260; dCM:0.536; dG:0.260; lGD:0.353; rT:4.63; rD:-0.54; rF:-323.32; MX:68.63 -17.39 -240.49| R -319.222, EO=F  N
 E:17, A:3; j:0.55, I:1; S:1; P:1.35,0.40,0.30 | dd:0.077; aGD:0.081; dH:0.446 d:0.183; dCM:0.398; dG:0.183; lGD:0.260; rT:4.04; rD:-0.40; rF:-515.14; MX:72.67 -17.78 -755.63| R -511.494, EO=F  N
 E:18, A:3; j:0.70, I:1; S:1; P:1.35,0.55,0.30 | dd:0.049; aGD:0.057; dH:0.422 d:0.135; dCM:0.248; dG:0.135; lGD:0.183; rT:2.83; rD:-0.25; rF:-1179.26; MX:75.50 -18.03 -1934.89| R -1176.671, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 Current Accuracy:  0.2500 (004 of 016)  (reward=-100.00 LOSS)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.968 d:1.518; dCM:2.093; dG:1.518; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.331, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.670 d:1.368; dCM:1.796; dG:1.368; lGD:1.518; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.181, EO=F  P+
@@ -439,9 +439,9 @@ E:13, A:3; j:0.70, I:1; S:1; P:1.20,0.55,0.00 | dd:0.107; aGD:0.111; dH:0.516 d:
 E:14, A:3; j:0.85, I:1; S:1; P:1.20,0.70,0.00 | dd:0.097; aGD:0.101; dH:0.361 d:0.109; dCM:0.318; dG:0.109; lGD:0.206; rT:5.03; rD:-0.32; rF:-538.41; MX:76.01 -14.13 -693.29| R -533.701, EO=F  N
 E:15, A:4; j:-0.15, I:2; S:-1; P:1.20,0.85,0.00 | dd:-0.000; aGD:0.025; dH:0.361 d:0.109; dCM:0.318; dG:0.109; lGD:0.109; rT:1.26; rD:-0.32; rF:-538.40; MX:77.27 -14.45 -1231.69| R -537.463, EO=F  N
 E:16, A:3; j:1.00, I:1; S:1; P:1.20,0.85,-0.15 | dd:0.064; aGD:0.054; dH:0.328 d:0.045; dCM:0.161; dG:0.045; lGD:0.109; rT:2.71; rD:-0.16; rF:-1179.12; MX:79.97 -14.61 -2410.81| R -1176.570, EO=F  N
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.2941 (005 of 017)  (reward=+784.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.973 d:1.520; dCM:2.098; dG:1.520; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.323, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.674 d:1.370; dCM:1.801; dG:1.370; lGD:1.520; rT:6.97; rD:-1.80; rF:0.00; MX:12.40 -3.90 0.00| R 5.174, EO=F  P+
@@ -461,9 +461,9 @@ E:16, A:4; j:-0.60, I:2; S:-1; P:1.20,0.55,-0.45 | dd:0.000; aGD:0.004; dH:0.663
 E:17, A:3; j:0.70, I:1; S:1; P:1.20,0.55,-0.60 | dd:0.107; aGD:0.082; dH:0.519 d:0.208; dCM:0.470; dG:0.208; lGD:0.316; rT:4.08; rD:-0.47; rF:-335.55; MX:71.47 -15.77 -170.12| R -331.941, EO=F  N
 E:18, A:3; j:0.85, I:1; S:1; P:1.20,0.70,-0.60 | dd:0.098; aGD:0.094; dH:0.364 d:0.110; dCM:0.321; dG:0.110; lGD:0.208; rT:4.69; rD:-0.32; rF:-530.09; MX:76.16 -16.09 -700.21| R -525.719, EO=F  N
 E:19, A:3; j:1.00, I:1; S:1; P:1.20,0.85,-0.60 | dd:0.065; aGD:0.072; dH:0.326 d:0.046; dCM:0.164; dG:0.046; lGD:0.110; rT:3.59; rD:-0.16; rF:-1141.98; MX:79.75 -16.26 -1842.19| R -1138.552, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.3333 (006 of 018)  (reward=+781.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.144; aGD:0.108; dH:1.977 d:1.522; dCM:2.102; dG:1.522; lGD:1.667; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.317, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.139; dH:1.679 d:1.373; dCM:1.805; dG:1.373; lGD:1.522; rT:6.97; rD:-1.81; rF:0.00; MX:12.39 -3.91 0.00| R 5.166, EO=F  P+
@@ -510,9 +510,9 @@ E:43, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.75 | dd:0.118; aGD:0.061; dH:0.572 d
 E:44, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.75 | dd:0.118; aGD:0.103; dH:0.417 d:0.149; dCM:0.374; dG:0.149; lGD:0.267; rT:5.17; rD:-0.37; rF:-347.88; MX:74.17 -32.27 -1099.04| R -343.088, EO=F  N
 E:45, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.75 | dd:0.113; aGD:0.110; dH:0.254 d:0.036; dCM:0.217; dG:0.036; lGD:0.149; rT:5.52; rD:-0.22; rF:-537.01; MX:79.69 -32.49 -1636.05| R -531.703, EO=F  N
 E:46, A:3; j:1.30, I:1; S:1; P:1.05,1.15,-0.75 | dd:0.036; aGD:0.055; dH:0.196 d:0.000; dCM:0.057; dG:0.000; lGD:0.036; rT:2.74; rD:-0.06; rF:1047.10; MX:82.43 -32.55 -588.95| R 1049.782, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 754.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.3684 (007 of 019)  (reward=+1554.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.328, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.672 d:1.369; dCM:1.798; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.178, EO=F  P+
@@ -535,9 +535,9 @@ E:19, A:4; j:-0.90, I:2; S:-1; P:1.20,0.55,-0.75 | dd:0.000; aGD:0.000; dH:0.661
 E:20, A:3; j:0.70, I:1; S:1; P:1.20,0.55,-0.75 | dd:0.107; aGD:0.080; dH:0.517 d:0.207; dCM:0.468; dG:0.207; lGD:0.314; rT:4.02; rD:-0.47; rF:-337.63; MX:71.50 -17.62 -254.82| R -334.077, EO=F  N
 E:21, A:3; j:0.85, I:1; S:1; P:1.20,0.70,-0.75 | dd:0.097; aGD:0.093; dH:0.362 d:0.109; dCM:0.319; dG:0.109; lGD:0.207; rT:4.66; rD:-0.32; rF:-535.03; MX:76.16 -17.94 -789.85| R -530.690, EO=F  N
 E:22, A:3; j:1.00, I:1; S:1; P:1.20,0.85,-0.75 | dd:0.064; aGD:0.071; dH:0.327 d:0.045; dCM:0.162; dG:0.045; lGD:0.109; rT:3.57; rD:-0.16; rF:-1163.46; MX:79.73 -18.10 -1953.31| R -1160.047, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.4000 (008 of 020)  (reward=+778.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.974 d:1.521; dCM:2.099; dG:1.521; lGD:1.666; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.321, EO=F  P+
 E:3, A:5; j:0.15, I:2; S:1; P:0.30,0.25,0.00 | dd:-0.000; aGD:0.027; dH:1.974 d:1.521; dCM:2.099; dG:1.521; lGD:1.521; rT:1.35; rD:-2.10; rF:0.00; MX:6.77 -4.20 0.00| R -0.744, EO=F  N
@@ -553,9 +553,9 @@ E:12, A:3; j:0.55, I:1; S:1; P:1.20,0.40,0.00 | dd:0.109; aGD:0.123; dH:0.664 d:
 E:13, A:3; j:0.70, I:1; S:1; P:1.20,0.55,0.00 | dd:0.108; aGD:0.111; dH:0.520 d:0.209; dCM:0.471; dG:0.209; lGD:0.317; rT:5.57; rD:-0.47; rF:-334.21; MX:70.97 -15.55 -251.56| R -329.113, EO=F  N
 E:14, A:3; j:0.85, I:1; S:1; P:1.20,0.70,0.00 | dd:0.098; aGD:0.102; dH:0.365 d:0.111; dCM:0.322; dG:0.111; lGD:0.209; rT:5.08; rD:-0.32; rF:-526.82; MX:76.05 -15.87 -778.37| R -522.059, EO=F  N
 E:15, A:3; j:1.00, I:1; S:1; P:1.20,0.85,0.00 | dd:0.065; aGD:0.074; dH:0.325 d:0.046; dCM:0.165; dG:0.046; lGD:0.111; rT:3.70; rD:-0.17; rF:-1127.29; MX:79.76 -16.04 -1905.67| R -1123.753, EO=F  N
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.4286 (009 of 021)  (reward=+785.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.968 d:1.518; dCM:2.093; dG:1.518; lGD:1.663; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.332, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.669 d:1.368; dCM:1.796; dG:1.368; lGD:1.518; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.183, EO=F  P+
@@ -571,7 +571,7 @@ E:12, A:3; j:0.55, I:1; S:1; P:1.20,0.40,-0.30 | dd:0.109; aGD:0.083; dH:0.660 d
 E:13, A:3; j:0.70, I:1; S:1; P:1.20,0.55,-0.30 | dd:0.107; aGD:0.101; dH:0.516 d:0.206; dCM:0.467; dG:0.206; lGD:0.313; rT:5.06; rD:-0.47; rF:-339.59; MX:71.15 -12.72 -256.69| R -334.997, EO=F  N
 E:14, A:3; j:0.85, I:1; S:1; P:1.20,0.70,-0.30 | dd:0.097; aGD:0.098; dH:0.360 d:0.109; dCM:0.317; dG:0.109; lGD:0.206; rT:4.89; rD:-0.32; rF:-539.88; MX:76.04 -13.04 -796.57| R -535.310, EO=F  N
 E:15, A:3; j:1.00, I:1; S:1; P:1.20,0.85,-0.30 | dd:0.064; aGD:0.072; dH:0.329 d:0.045; dCM:0.161; dG:0.045; lGD:0.109; rT:3.61; rD:-0.16; rF:-1186.20; MX:79.65 -13.20 -1982.77| R -1182.753, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
 Current Accuracy:  0.4091 (009 of 022)  (reward=-100.00 LOSS)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.972 d:1.520; dCM:2.097; dG:1.520; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.325, EO=F  P+
@@ -586,9 +586,9 @@ E:10, A:3; j:0.55, I:1; S:1; P:1.20,0.40,-0.00 | dd:0.109; aGD:0.111; dH:0.663 d
 E:11, A:3; j:0.70, I:1; S:1; P:1.20,0.55,-0.00 | dd:0.107; aGD:0.108; dH:0.519 d:0.208; dCM:0.470; dG:0.208; lGD:0.315; rT:5.42; rD:-0.47; rF:-336.12; MX:71.02 -11.29 -253.39| R -331.176, EO=F  N
 E:12, A:3; j:0.85, I:1; S:1; P:1.20,0.70,-0.00 | dd:0.098; aGD:0.100; dH:0.364 d:0.110; dCM:0.321; dG:0.110; lGD:0.208; rT:5.02; rD:-0.32; rF:-531.52; MX:76.03 -11.61 -784.90| R -526.822, EO=F  N
 E:13, A:3; j:1.00, I:1; S:1; P:1.20,0.85,-0.00 | dd:0.064; aGD:0.073; dH:0.327 d:0.046; dCM:0.164; dG:0.046; lGD:0.110; rT:3.67; rD:-0.16; rF:-1148.63; MX:79.70 -11.77 -1933.53| R -1145.123, EO=F  N
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.4348 (010 of 023)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.326, EO=F  P+
 E:3, A:4; j:-0.15, I:2; S:-1; P:0.30,0.25,0.00 | dd:-0.000; aGD:0.027; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.519; rT:1.36; rD:-2.10; rF:0.00; MX:6.78 -4.19 0.00| R -0.740, EO=F  N
@@ -609,9 +609,9 @@ E:17, A:3; j:0.55, I:1; S:1; P:1.20,0.40,-0.75 | dd:0.109; aGD:0.082; dH:0.661 d
 E:18, A:3; j:0.70, I:1; S:1; P:1.20,0.55,-0.75 | dd:0.107; aGD:0.101; dH:0.517 d:0.207; dCM:0.468; dG:0.207; lGD:0.314; rT:5.05; rD:-0.47; rF:-337.37; MX:71.17 -17.63 -254.56| R -332.786, EO=F  N
 E:19, A:3; j:0.85, I:1; S:1; P:1.20,0.70,-0.75 | dd:0.098; aGD:0.099; dH:0.361 d:0.109; dCM:0.318; dG:0.109; lGD:0.207; rT:4.93; rD:-0.32; rF:-534.23; MX:76.10 -17.95 -788.79| R -529.621, EO=F  N
 E:20, A:3; j:1.00, I:1; S:1; P:1.20,0.85,-0.75 | dd:0.064; aGD:0.073; dH:0.326 d:0.044; dCM:0.162; dG:0.044; lGD:0.109; rT:3.65; rD:-0.16; rF:-1158.81; MX:79.74 -18.11 -1947.61| R -1155.328, EO=F  N
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.4583 (011 of 024)  (reward=+780.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.109; dH:1.964 d:1.516; dCM:2.089; dG:1.516; lGD:1.660; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.338, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.665 d:1.366; dCM:1.792; dG:1.366; lGD:1.516; rT:6.98; rD:-1.79; rF:0.00; MX:12.41 -3.88 0.00| R 5.188, EO=F  P+
@@ -629,9 +629,9 @@ E:14, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.15 | dd:0.117; aGD:0.103; dH:0.562 d:
 E:15, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.15 | dd:0.117; aGD:0.114; dH:0.407 d:0.141; dCM:0.364; dG:0.141; lGD:0.258; rT:5.70; rD:-0.36; rF:-358.82; MX:74.10 -14.56 -533.64| R -353.490, EO=F  N
 E:16, A:4; j:0.00, I:2; S:-1; P:1.05,1.00,0.15 | dd:-0.000; aGD:0.028; dH:0.407 d:0.141; dCM:0.364; dG:0.141; lGD:0.141; rT:1.42; rD:-0.36; rF:-358.82; MX:75.52 -14.92 -892.46| R -357.757, EO=F  N
 E:17, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.00 | dd:0.113; aGD:0.092; dH:0.244 d:0.028; dCM:0.207; dG:0.028; lGD:0.141; rT:4.58; rD:-0.21; rF:561.83; MX:80.10 -15.13 -330.63| R 566.198, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 783.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.4800 (012 of 025)  (reward=+783.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.969 d:1.518; dCM:2.094; dG:1.518; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.328, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.671 d:1.369; dCM:1.798; dG:1.369; lGD:1.518; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.178, EO=F  P+
@@ -645,9 +645,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.115; dH:0.710 d
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.118; aGD:0.117; dH:0.566 d:0.261; dCM:0.517; dG:0.261; lGD:0.379; rT:5.84; rD:-0.52; rF:-255.33; MX:68.14 -11.47 -172.49| R -250.007, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.410 d:0.144; dCM:0.368; dG:0.144; lGD:0.261; rT:5.87; rD:-0.37; rF:-354.05; MX:74.01 -11.83 -526.54| R -348.551, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.112; aGD:0.114; dH:0.247 d:0.032; dCM:0.211; dG:0.032; lGD:0.144; rT:5.68; rD:-0.21; rF:550.70; MX:79.68 -12.04 24.16| R 556.168, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.5000 (013 of 026)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.664; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.329, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.672 d:1.369; dCM:1.798; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.178, EO=F  P+
@@ -661,9 +661,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,0.00 | dd:0.116; aGD:0.114; dH:0.712 d:
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.00 | dd:0.117; aGD:0.117; dH:0.568 d:0.262; dCM:0.519; dG:0.262; lGD:0.380; rT:5.84; rD:-0.52; rF:-255.01; MX:68.12 -11.47 -172.20| R -249.696, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.00 | dd:0.118; aGD:0.117; dH:0.412 d:0.145; dCM:0.370; dG:0.145; lGD:0.262; rT:5.87; rD:-0.37; rF:-353.59; MX:73.98 -11.84 -525.79| R -348.092, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.00 | dd:0.113; aGD:0.114; dH:0.249 d:0.032; dCM:0.213; dG:0.032; lGD:0.145; rT:5.71; rD:-0.21; rF:-550.06; MX:79.69 -12.06 -1075.85| R -544.569, EO=F  N
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.5185 (014 of 027)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.976 d:1.522; dCM:2.100; dG:1.522; lGD:1.666; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.319, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.139; dH:1.677 d:1.372; dCM:1.804; dG:1.372; lGD:1.522; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.90 0.00| R 5.168, EO=F  P+
@@ -680,9 +680,9 @@ E:13, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.118; aGD:0.118; dH:0.571 d
 E:14, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.118; dH:0.416 d:0.148; dCM:0.373; dG:0.148; lGD:0.266; rT:5.88; rD:-0.37; rF:-348.95; MX:73.94 -15.82 -518.87| R -343.448, EO=F  N
 E:15, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.113; aGD:0.114; dH:0.253 d:0.035; dCM:0.216; dG:0.035; lGD:0.148; rT:5.70; rD:-0.22; rF:-539.38; MX:79.64 -16.03 -1058.25| R -533.897, EO=F  N
 E:16, A:3; j:1.30, I:1; S:1; P:1.05,1.15,-0.00 | dd:0.035; aGD:0.055; dH:0.197 d:0.000; dCM:0.056; dG:0.000; lGD:0.035; rT:2.75; rD:-0.06; rF:1055.27; MX:82.40 -16.09 -2.98| R 1057.963, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.5357 (015 of 028)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.969 d:1.518; dCM:2.094; dG:1.518; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.329, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.671 d:1.368; dCM:1.797; dG:1.368; lGD:1.518; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.180, EO=F  P+
@@ -733,9 +733,9 @@ E:47, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.75 | dd:0.116; aGD:0.099; dH:0.710 d
 E:48, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.75 | dd:0.118; aGD:0.113; dH:0.566 d:0.261; dCM:0.517; dG:0.261; lGD:0.379; rT:5.64; rD:-0.52; rF:-255.59; MX:68.20 -37.95 -1469.04| R -250.472, EO=F  N
 E:49, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.75 | dd:0.118; aGD:0.116; dH:0.411 d:0.144; dCM:0.368; dG:0.144; lGD:0.261; rT:5.82; rD:-0.37; rF:-354.59; MX:74.02 -38.32 -1823.62| R -349.139, EO=F  N
 E:50, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.75 | dd:0.113; aGD:0.114; dH:0.248 d:0.031; dCM:0.211; dG:0.031; lGD:0.144; rT:5.68; rD:-0.21; rF:552.10; MX:79.70 -38.53 -1271.53| R 557.562, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 750.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.5517 (016 of 029)  (reward=+750.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.109; dH:1.964 d:1.516; dCM:2.089; dG:1.516; lGD:1.660; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.339, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.665 d:1.366; dCM:1.792; dG:1.366; lGD:1.516; rT:6.98; rD:-1.79; rF:0.00; MX:12.41 -3.88 0.00| R 5.188, EO=F  P+
@@ -777,9 +777,9 @@ E:17, A:3; j:0.85, I:1; S:1; P:1.20,0.70,-0.15 | dd:0.098; aGD:0.100; dH:0.362 d
 E:18, A:4; j:-0.30, I:2; S:-1; P:1.20,0.85,-0.15 | dd:-0.000; aGD:0.025; dH:0.362 d:0.109; dCM:0.319; dG:0.109; lGD:0.109; rT:1.25; rD:-0.32; rF:-531.86; MX:77.34 -18.75 -1223.19| R -530.928, EO=F  N
 E:19, A:5; j:-0.15, I:2; S:1; P:1.20,0.85,-0.30 | dd:0.000; aGD:0.006; dH:0.362 d:0.109; dCM:0.319; dG:0.109; lGD:0.109; rT:0.31; rD:-0.32; rF:-531.86; MX:77.65 -19.07 -1755.06| R -531.870, EO=F  N
 E:20, A:3; j:1.00, I:1; S:1; P:1.20,0.85,-0.15 | dd:0.065; aGD:0.050; dH:0.325 d:0.044; dCM:0.162; dG:0.044; lGD:0.109; rT:2.50; rD:-0.16; rF:-1148.18; MX:80.15 -19.23 -2903.24| R -1145.843, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.5484 (017 of 031)  (reward=+780.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.965 d:1.516; dCM:2.090; dG:1.516; lGD:1.661; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.336, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.667 d:1.366; dCM:1.793; dG:1.366; lGD:1.516; rT:6.98; rD:-1.79; rF:0.00; MX:12.40 -3.88 0.00| R 5.186, EO=F  P+
@@ -793,9 +793,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.115; dH:0.708 d
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.117; aGD:0.117; dH:0.563 d:0.259; dCM:0.515; dG:0.259; lGD:0.376; rT:5.84; rD:-0.51; rF:-257.34; MX:68.17 -11.44 -174.32| R -252.013, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.408 d:0.141; dCM:0.365; dG:0.141; lGD:0.259; rT:5.87; rD:-0.36; rF:-357.80; MX:74.03 -11.80 -532.12| R -352.296, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.112; aGD:0.114; dH:0.244 d:0.029; dCM:0.208; dG:0.029; lGD:0.141; rT:5.68; rD:-0.21; rF:559.42; MX:79.72 -12.01 27.30| R 564.896, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.5625 (018 of 032)  (reward=+787.00 WIN)
 E:1, A:0; j:-0.15, I:0; S:-1; P:-0.00,0.25,0.00 | E:2, A:1; j:-0.00, I:0; S:1; P:-0.15,0.25,0.00 | dd:0.131; aGD:0.098; dH:2.516 d:1.802; dCM:2.634; dG:1.802; lGD:1.932; rT:4.90; rD:-2.63; rF:0.00; MX:4.90 -2.63 0.00| R 2.263, EO=F  P+
 E:3, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | dd:0.138; aGD:0.128; dH:2.254 d:1.664; dCM:2.376; dG:1.664; lGD:1.802; rT:6.40; rD:-2.38; rF:0.00; MX:11.30 -5.01 0.00| R 4.028, EO=F  P+
@@ -847,9 +847,9 @@ E:48, A:4; j:-0.90, I:2; S:-1; P:1.05,0.70,-0.75 | dd:0.000; aGD:0.000; dH:0.711
 E:49, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.75 | dd:0.118; aGD:0.088; dH:0.566 d:0.262; dCM:0.518; dG:0.262; lGD:0.380; rT:4.41; rD:-0.52; rF:-254.80; MX:82.04 -40.87 -2107.82| R -250.906, EO=F  N
 E:50, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.75 | dd:0.118; aGD:0.110; dH:0.411 d:0.145; dCM:0.368; dG:0.145; lGD:0.262; rT:5.51; rD:-0.37; rF:-353.06; MX:87.55 -41.24 -2460.88| R -347.914, EO=F  N
 E:51, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.75 | dd:0.112; aGD:0.112; dH:0.248 d:0.032; dCM:0.211; dG:0.032; lGD:0.145; rT:5.59; rD:-0.21; rF:548.39; MX:93.14 -41.45 -1912.49| R 553.763, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 749.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.5758 (019 of 033)  (reward=+749.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.971 d:1.520; dCM:2.096; dG:1.520; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.327, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.673 d:1.370; dCM:1.799; dG:1.370; lGD:1.520; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.90 0.00| R 5.176, EO=F  P+
@@ -864,9 +864,9 @@ E:11, A:3; j:0.70, I:1; S:1; P:1.05,0.55,0.15 | dd:0.116; aGD:0.109; dH:0.713 d:
 E:12, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.15 | dd:0.117; aGD:0.115; dH:0.568 d:0.263; dCM:0.520; dG:0.263; lGD:0.381; rT:5.77; rD:-0.52; rF:-254.48; MX:68.13 -12.37 -171.71| R -249.233, EO=F  N
 E:13, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.15 | dd:0.118; aGD:0.117; dH:0.413 d:0.146; dCM:0.370; dG:0.146; lGD:0.263; rT:5.85; rD:-0.37; rF:-352.59; MX:73.98 -12.74 -524.31| R -347.116, EO=F  N
 E:14, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.15 | dd:0.113; aGD:0.114; dH:0.250 d:0.033; dCM:0.214; dG:0.033; lGD:0.146; rT:5.70; rD:-0.21; rF:-547.75; MX:79.68 -12.96 -1072.06| R -542.266, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 786.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.5882 (020 of 034)  (reward=+786.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.966 d:1.517; dCM:2.091; dG:1.517; lGD:1.662; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.336, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.668 d:1.367; dCM:1.794; dG:1.367; lGD:1.517; rT:6.98; rD:-1.79; rF:0.00; MX:12.41 -3.88 0.00| R 5.185, EO=F  P+
@@ -880,9 +880,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.115; dH:0.709 d
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.117; aGD:0.117; dH:0.565 d:0.260; dCM:0.516; dG:0.260; lGD:0.377; rT:5.84; rD:-0.52; rF:-256.86; MX:68.15 -11.45 -173.89| R -251.543, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.409 d:0.142; dCM:0.367; dG:0.142; lGD:0.260; rT:5.87; rD:-0.37; rF:-357.00; MX:74.01 -11.81 -530.89| R -351.502, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.113; aGD:0.114; dH:0.246 d:0.029; dCM:0.210; dG:0.029; lGD:0.142; rT:5.70; rD:-0.21; rF:557.87; MX:79.72 -12.02 26.98| R 563.363, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.6000 (021 of 035)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.972 d:1.520; dCM:2.097; dG:1.520; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.326, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.673 d:1.370; dCM:1.800; dG:1.370; lGD:1.520; rT:6.97; rD:-1.80; rF:0.00; MX:12.40 -3.90 0.00| R 5.175, EO=F  P+
@@ -898,9 +898,9 @@ E:12, A:2; j:0.70, I:1; S:-1; P:1.05,0.85,0.00 | dd:-0.118; aGD:-0.059; dH:0.712
 E:13, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.00 | dd:0.118; aGD:0.073; dH:0.568 d:0.263; dCM:0.519; dG:0.263; lGD:0.381; rT:3.67; rD:-0.52; rF:-254.33; MX:68.83 -12.66 -425.90| R -251.179, EO=F  N
 E:14, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.00 | dd:0.118; aGD:0.107; dH:0.413 d:0.146; dCM:0.370; dG:0.146; lGD:0.263; rT:5.33; rD:-0.37; rF:-352.28; MX:74.16 -13.03 -778.18| R -347.320, EO=F  N
 E:15, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.00 | dd:0.113; aGD:0.111; dH:0.250 d:0.033; dCM:0.213; dG:0.033; lGD:0.146; rT:5.56; rD:-0.21; rF:546.89; MX:79.72 -13.24 -231.29| R 552.232, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 785.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.6111 (022 of 036)  (reward=+785.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.966 d:1.517; dCM:2.091; dG:1.517; lGD:1.662; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.335, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.668 d:1.367; dCM:1.794; dG:1.367; lGD:1.517; rT:6.98; rD:-1.79; rF:0.00; MX:12.40 -3.89 0.00| R 5.184, EO=F  P+
@@ -914,9 +914,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.115; dH:0.709 d
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.117; aGD:0.117; dH:0.565 d:0.260; dCM:0.516; dG:0.260; lGD:0.377; rT:5.84; rD:-0.52; rF:-256.71; MX:68.15 -11.45 -173.75| R -251.386, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.409 d:0.142; dCM:0.366; dG:0.142; lGD:0.260; rT:5.87; rD:-0.37; rF:-356.67; MX:74.02 -11.81 -530.42| R -351.173, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.113; aGD:0.114; dH:0.246 d:0.030; dCM:0.209; dG:0.030; lGD:0.142; rT:5.69; rD:-0.21; rF:556.97; MX:79.71 -12.02 26.54| R 562.451, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.6216 (023 of 037)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.972 d:1.520; dCM:2.097; dG:1.520; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.325, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.674 d:1.370; dCM:1.800; dG:1.370; lGD:1.520; rT:6.97; rD:-1.80; rF:0.00; MX:12.40 -3.90 0.00| R 5.174, EO=F  P+
@@ -931,9 +931,9 @@ E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.00 | dd:0.118; aGD:0.117; dH:0.568 d:
 E:12, A:4; j:-0.15, I:2; S:-1; P:1.05,0.85,0.00 | dd:-0.000; aGD:0.029; dH:0.568 d:0.263; dCM:0.519; dG:0.263; lGD:0.263; rT:1.46; rD:-0.52; rF:-254.18; MX:69.57 -12.00 -425.61| R -253.237, EO=F  N
 E:13, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.15 | dd:0.118; aGD:0.095; dH:0.413 d:0.146; dCM:0.370; dG:0.146; lGD:0.263; rT:4.77; rD:-0.37; rF:-351.96; MX:74.35 -12.37 -777.57| R -347.554, EO=F  N
 E:14, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.15 | dd:0.112; aGD:0.108; dH:0.250 d:0.033; dCM:0.213; dG:0.033; lGD:0.146; rT:5.41; rD:-0.21; rF:546.03; MX:79.76 -12.59 -231.54| R 551.224, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 786.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.6316 (024 of 038)  (reward=+786.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.967 d:1.517; dCM:2.092; dG:1.517; lGD:1.662; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.333, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.668 d:1.367; dCM:1.795; dG:1.367; lGD:1.517; rT:6.98; rD:-1.79; rF:0.00; MX:12.40 -3.89 0.00| R 5.183, EO=F  P+
@@ -948,9 +948,9 @@ E:11, A:3; j:0.70, I:1; S:1; P:1.05,0.55,0.15 | dd:0.116; aGD:0.114; dH:0.709 d:
 E:12, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.15 | dd:0.118; aGD:0.117; dH:0.564 d:0.260; dCM:0.516; dG:0.260; lGD:0.377; rT:5.84; rD:-0.52; rF:-256.55; MX:68.15 -12.63 -90.66| R -251.232, EO=F  N
 E:13, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.15 | dd:0.118; aGD:0.117; dH:0.409 d:0.142; dCM:0.366; dG:0.142; lGD:0.260; rT:5.87; rD:-0.37; rF:-356.34; MX:74.02 -12.99 -447.00| R -350.844, EO=F  N
 E:14, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.15 | dd:0.112; aGD:0.114; dH:0.246 d:0.030; dCM:0.209; dG:0.030; lGD:0.142; rT:5.68; rD:-0.21; rF:556.07; MX:79.70 -13.20 109.06| R 561.543, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 786.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.6410 (025 of 039)  (reward=+786.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:0; j:0.00, I:0; S:-1; P:0.15,0.25,0.00 | dd:-0.138; aGD:-0.104; dH:2.508 d:1.798; dCM:2.627; dG:1.798; lGD:1.659; rT:-5.19; rD:-2.63; rF:0.00; MX:-5.19 -2.63 0.00| R -7.816, EO=F  N
 E:3, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | dd:0.138; aGD:0.078; dH:2.245 d:1.659; dCM:2.368; dG:1.659; lGD:1.798; rT:3.89; rD:-2.37; rF:0.00; MX:-1.30 -4.99 0.00| R 1.524, EO=F  P+
@@ -966,9 +966,9 @@ E:12, A:3; j:0.70, I:1; S:1; P:1.05,0.55,0.00 | dd:0.116; aGD:0.115; dH:0.705 d:
 E:13, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.00 | dd:0.117; aGD:0.117; dH:0.561 d:0.256; dCM:0.512; dG:0.256; lGD:0.374; rT:5.84; rD:-0.51; rF:-258.97; MX:68.19 -16.40 -175.82| R -253.647, EO=F  N
 E:14, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.00 | dd:0.117; aGD:0.117; dH:0.405 d:0.139; dCM:0.362; dG:0.139; lGD:0.256; rT:5.86; rD:-0.36; rF:-360.84; MX:74.06 -16.77 -536.66| R -355.338, EO=F  N
 E:15, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.00 | dd:0.112; aGD:0.114; dH:0.242 d:0.027; dCM:0.205; dG:0.027; lGD:0.139; rT:5.68; rD:-0.21; rF:566.48; MX:79.74 -16.97 29.82| R 571.958, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 785.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.6500 (026 of 040)  (reward=+785.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.973 d:1.520; dCM:2.098; dG:1.520; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.324, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.139; dH:1.675 d:1.371; dCM:1.801; dG:1.371; lGD:1.520; rT:6.97; rD:-1.80; rF:0.00; MX:12.40 -3.90 0.00| R 5.174, EO=F  P+
@@ -982,9 +982,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.114; dH:0.714 d
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.118; aGD:0.117; dH:0.570 d:0.264; dCM:0.521; dG:0.264; lGD:0.382; rT:5.84; rD:-0.52; rF:-253.71; MX:68.10 -11.49 -171.01| R -248.397, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.414 d:0.147; dCM:0.371; dG:0.147; lGD:0.264; rT:5.87; rD:-0.37; rF:-351.18; MX:73.96 -11.87 -522.19| R -345.685, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.113; aGD:0.114; dH:0.252 d:0.034; dCM:0.215; dG:0.034; lGD:0.147; rT:5.70; rD:-0.21; rF:-544.53; MX:79.67 -12.08 -1066.72| R -539.044, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.6585 (027 of 041)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.109; dH:1.968 d:1.518; dCM:2.093; dG:1.518; lGD:1.662; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.332, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.669 d:1.368; dCM:1.796; dG:1.368; lGD:1.518; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.183, EO=F  P+
@@ -1002,9 +1002,9 @@ E:14, A:5; j:0.15, I:2; S:1; P:1.05,0.85,0.00 | dd:-0.000; aGD:0.029; dH:0.566 d
 E:15, A:5; j:0.30, I:2; S:1; P:1.05,0.85,0.15 | dd:0.000; aGD:0.007; dH:0.566 d:0.261; dCM:0.517; dG:0.261; lGD:0.261; rT:0.36; rD:-0.52; rF:-256.08; MX:69.96 -14.55 -685.34| R -256.233, EO=F  N
 E:16, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.30 | dd:0.118; aGD:0.090; dH:0.411 d:0.143; dCM:0.368; dG:0.143; lGD:0.261; rT:4.50; rD:-0.37; rF:-355.55; MX:74.46 -14.92 -1040.89| R -351.423, EO=F  N
 E:17, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.30 | dd:0.113; aGD:0.107; dH:0.248 d:0.030; dCM:0.211; dG:0.030; lGD:0.143; rT:5.36; rD:-0.21; rF:554.53; MX:79.82 -15.13 -486.36| R 559.682, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 783.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.6667 (028 of 042)  (reward=+783.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.973 d:1.521; dCM:2.098; dG:1.521; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.323, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.675 d:1.371; dCM:1.801; dG:1.371; lGD:1.521; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.90 0.00| R 5.172, EO=F  P+
@@ -1036,9 +1036,9 @@ E:11, A:3; j:0.70, I:1; S:1; P:1.05,0.55,0.15 | dd:0.116; aGD:0.115; dH:0.711 d:
 E:12, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.15 | dd:0.118; aGD:0.117; dH:0.566 d:0.262; dCM:0.518; dG:0.262; lGD:0.380; rT:5.84; rD:-0.52; rF:-254.92; MX:68.13 -13.85 -172.11| R -249.597, EO=F  N
 E:13, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.15 | dd:0.118; aGD:0.117; dH:0.411 d:0.144; dCM:0.368; dG:0.144; lGD:0.262; rT:5.87; rD:-0.37; rF:-353.29; MX:74.00 -14.22 -525.40| R -347.790, EO=F  N
 E:14, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.15 | dd:0.112; aGD:0.114; dH:0.248 d:0.032; dCM:0.211; dG:0.032; lGD:0.144; rT:5.68; rD:-0.21; rF:548.95; MX:79.68 -14.43 23.55| R 554.415, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 786.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.6591 (029 of 044)  (reward=+786.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.971 d:1.519; dCM:2.096; dG:1.519; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.328, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.673 d:1.370; dCM:1.799; dG:1.370; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.177, EO=F  P+
@@ -1055,9 +1055,9 @@ E:13, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.117; aGD:0.066; dH:0.568 d
 E:14, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.105; dH:0.413 d:0.145; dCM:0.370; dG:0.145; lGD:0.263; rT:5.23; rD:-0.37; rF:-352.83; MX:74.19 -12.98 -861.65| R -347.971, EO=F  N
 E:15, A:5; j:0.15, I:2; S:1; P:1.05,1.00,-0.00 | dd:-0.000; aGD:0.026; dH:0.413 d:0.145; dCM:0.370; dG:0.145; lGD:0.145; rT:1.31; rD:-0.37; rF:-352.82; MX:75.50 -13.35 -1214.47| R -351.888, EO=F  N
 E:16, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.15 | dd:0.113; aGD:0.091; dH:0.250 d:0.032; dCM:0.213; dG:0.032; lGD:0.145; rT:4.57; rD:-0.21; rF:-548.31; MX:80.06 -13.56 -1762.78| R -543.962, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.6667 (030 of 045)  (reward=+784.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.976 d:1.522; dCM:2.101; dG:1.522; lGD:1.667; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.317, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.139; dH:1.678 d:1.372; dCM:1.805; dG:1.372; lGD:1.522; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.91 0.00| R 5.166, EO=F  P+
@@ -1072,9 +1072,9 @@ E:11, A:5; j:0.15, I:2; S:1; P:1.05,0.70,-0.00 | dd:-0.000; aGD:0.029; dH:0.716 
 E:12, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.15 | dd:0.118; aGD:0.095; dH:0.572 d:0.266; dCM:0.523; dG:0.266; lGD:0.384; rT:4.77; rD:-0.52; rF:-252.12; MX:68.43 -12.18 -169.55| R -247.872, EO=F  N
 E:13, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.15 | dd:0.118; aGD:0.112; dH:0.417 d:0.149; dCM:0.374; dG:0.149; lGD:0.266; rT:5.60; rD:-0.37; rF:-348.21; MX:74.03 -12.55 -517.76| R -342.985, EO=F  N
 E:14, A:1; j:1.20, I:0; S:1; P:1.05,1.00,0.15 | dd:0.102; aGD:0.105; dH:0.324 d:0.046; dCM:0.167; dG:0.046; lGD:0.149; rT:5.24; rD:-0.17; rF:-1109.83; MX:79.27 -12.72 -1627.59| R -1104.750, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::link2::collision2] LOSS
 R -100.000, EO=T  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.6739 (031 of 046)  (reward=+786.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.664; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.329, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.672 d:1.369; dCM:1.798; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.179, EO=F  P+
@@ -1088,9 +1088,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.114; dH:0.712 d
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.117; aGD:0.117; dH:0.568 d:0.262; dCM:0.519; dG:0.262; lGD:0.380; rT:5.84; rD:-0.52; rF:-255.05; MX:68.12 -11.47 -172.23| R -249.734, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.412 d:0.145; dCM:0.369; dG:0.145; lGD:0.262; rT:5.87; rD:-0.37; rF:-353.66; MX:73.98 -11.84 -525.89| R -348.163, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.113; aGD:0.114; dH:0.249 d:0.032; dCM:0.213; dG:0.032; lGD:0.145; rT:5.71; rD:-0.21; rF:-550.22; MX:79.69 -12.06 -1076.12| R -544.731, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.6809 (032 of 047)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.975 d:1.522; dCM:2.100; dG:1.522; lGD:1.666; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.319, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.677 d:1.372; dCM:1.804; dG:1.372; lGD:1.522; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.90 0.00| R 5.168, EO=F  P+
@@ -1108,9 +1108,9 @@ E:14, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.15 | dd:0.113; aGD:0.114; dH:0.253 d
 E:15, A:2; j:1.00, I:1; S:-1; P:1.05,1.15,-0.15 | dd:-0.113; aGD:-0.056; dH:0.416 d:0.148; dCM:0.373; dG:0.148; lGD:0.035; rT:-2.81; rD:-0.37; rF:-349.01; MX:76.84 -14.31 -1407.52| R -352.188, EO=F  N
 E:16, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.15 | dd:0.113; aGD:0.071; dH:0.253 d:0.035; dCM:0.216; dG:0.035; lGD:0.148; rT:3.53; rD:-0.22; rF:-539.54; MX:80.37 -14.52 -1947.06| R -536.227, EO=F  N
 E:17, A:3; j:1.30, I:1; S:1; P:1.05,1.15,-0.15 | dd:0.035; aGD:0.044; dH:0.197 d:0.000; dCM:0.056; dG:0.000; lGD:0.035; rT:2.21; rD:-0.06; rF:1055.82; MX:82.58 -14.58 -891.23| R 1057.977, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 783.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.6875 (033 of 048)  (reward=+1583.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.969 d:1.518; dCM:2.094; dG:1.518; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.330, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.670 d:1.368; dCM:1.797; dG:1.368; lGD:1.518; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.180, EO=F  P+
@@ -1124,9 +1124,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,0.00 | dd:0.116; aGD:0.115; dH:0.710 d:
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.00 | dd:0.118; aGD:0.117; dH:0.566 d:0.261; dCM:0.517; dG:0.261; lGD:0.379; rT:5.84; rD:-0.52; rF:-255.63; MX:68.14 -11.46 -172.76| R -250.311, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.00 | dd:0.118; aGD:0.117; dH:0.410 d:0.144; dCM:0.368; dG:0.144; lGD:0.261; rT:5.87; rD:-0.37; rF:-354.66; MX:74.00 -11.83 -527.42| R -349.160, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.00 | dd:0.113; aGD:0.114; dH:0.247 d:0.031; dCM:0.211; dG:0.031; lGD:0.144; rT:5.69; rD:-0.21; rF:552.26; MX:79.69 -12.04 24.84| R 557.737, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.6939 (034 of 049)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.964 d:1.516; dCM:2.089; dG:1.516; lGD:1.660; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.339, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.665 d:1.366; dCM:1.791; dG:1.366; lGD:1.516; rT:6.98; rD:-1.79; rF:0.00; MX:12.41 -3.88 0.00| R 5.189, EO=F  P+
@@ -1140,9 +1140,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.115; dH:0.707 d
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.117; aGD:0.117; dH:0.562 d:0.258; dCM:0.514; dG:0.258; lGD:0.375; rT:5.84; rD:-0.51; rF:-258.03; MX:68.18 -11.43 -174.96| R -252.711, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.407 d:0.140; dCM:0.364; dG:0.140; lGD:0.258; rT:5.87; rD:-0.36; rF:-359.11; MX:74.04 -11.79 -534.08| R -353.612, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.113; aGD:0.114; dH:0.244 d:0.028; dCM:0.207; dG:0.028; lGD:0.140; rT:5.69; rD:-0.21; rF:562.53; MX:79.73 -12.00 28.45| R 568.014, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.7000 (035 of 050)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.969 d:1.518; dCM:2.094; dG:1.518; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.329, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.671 d:1.368; dCM:1.797; dG:1.368; lGD:1.518; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.179, EO=F  P+
@@ -1161,9 +1161,9 @@ E:15, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.45 | dd:0.116; aGD:0.087; dH:0.710 d
 E:16, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.45 | dd:0.118; aGD:0.110; dH:0.566 d:0.261; dCM:0.517; dG:0.261; lGD:0.379; rT:5.49; rD:-0.52; rF:-255.48; MX:68.25 -15.09 -172.62| R -250.504, EO=F  N
 E:17, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.45 | dd:0.118; aGD:0.116; dH:0.410 d:0.144; dCM:0.367; dG:0.144; lGD:0.261; rT:5.78; rD:-0.37; rF:-354.34; MX:74.04 -15.46 -526.96| R -348.922, EO=F  N
 E:18, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.45 | dd:0.112; aGD:0.113; dH:0.247 d:0.031; dCM:0.211; dG:0.031; lGD:0.144; rT:5.66; rD:-0.21; rF:551.38; MX:79.69 -15.67 24.42| R 556.826, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 782.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.7059 (036 of 051)  (reward=+782.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.330, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.671 d:1.369; dCM:1.798; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.179, EO=F  P+
@@ -1177,8 +1177,8 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.114; dH:0.712 d
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.117; aGD:0.117; dH:0.568 d:0.262; dCM:0.519; dG:0.262; lGD:0.380; rT:5.84; rD:-0.52; rF:-255.16; MX:68.12 -11.47 -172.34| R -249.846, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.412 d:0.145; dCM:0.369; dG:0.145; lGD:0.262; rT:5.87; rD:-0.37; rF:-353.87; MX:73.98 -11.84 -526.21| R -348.377, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.113; aGD:0.114; dH:0.249 d:0.032; dCM:0.213; dG:0.032; lGD:0.145; rT:5.71; rD:-0.21; rF:-550.74; MX:79.69 -12.05 -1076.95| R -545.244, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
 Current Accuracy:  0.7115 (037 of 052)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.975 d:1.522; dCM:2.100; dG:1.522; lGD:1.666; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.320, EO=F  P+
@@ -1193,9 +1193,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,0.00 | dd:0.116; aGD:0.115; dH:0.715 d:
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.00 | dd:0.118; aGD:0.117; dH:0.571 d:0.266; dCM:0.522; dG:0.266; lGD:0.383; rT:5.84; rD:-0.52; rF:-252.66; MX:68.08 -11.51 -170.05| R -247.347, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.00 | dd:0.118; aGD:0.117; dH:0.416 d:0.148; dCM:0.373; dG:0.148; lGD:0.266; rT:5.87; rD:-0.37; rF:-349.23; MX:73.95 -11.88 -519.28| R -343.733, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.00 | dd:0.113; aGD:0.114; dH:0.253 d:0.035; dCM:0.216; dG:0.035; lGD:0.148; rT:5.70; rD:-0.22; rF:-540.03; MX:79.65 -12.10 -1059.31| R -534.548, EO=F  N
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.7170 (038 of 053)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.328, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.672 d:1.369; dCM:1.798; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.178, EO=F  P+
@@ -1211,9 +1211,9 @@ E:12, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.112; dH:0.712 d
 E:13, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.117; aGD:0.116; dH:0.567 d:0.262; dCM:0.519; dG:0.262; lGD:0.380; rT:5.81; rD:-0.52; rF:-255.01; MX:68.13 -13.64 -89.38| R -249.719, EO=F  N
 E:14, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.412 d:0.145; dCM:0.369; dG:0.145; lGD:0.262; rT:5.86; rD:-0.37; rF:-353.55; MX:73.99 -14.01 -442.93| R -348.061, EO=F  N
 E:15, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.113; aGD:0.114; dH:0.249 d:0.032; dCM:0.212; dG:0.032; lGD:0.145; rT:5.70; rD:-0.21; rF:549.86; MX:79.69 -14.22 106.93| R 555.348, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 785.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.7222 (039 of 054)  (reward=+785.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.109; dH:1.965 d:1.516; dCM:2.090; dG:1.516; lGD:1.661; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.338, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.666 d:1.366; dCM:1.793; dG:1.366; lGD:1.516; rT:6.98; rD:-1.79; rF:0.00; MX:12.41 -3.88 0.00| R 5.187, EO=F  P+
@@ -1331,9 +1331,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,0.00 | dd:0.116; aGD:0.115; dH:0.711 d:
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.00 | dd:0.117; aGD:0.117; dH:0.566 d:0.261; dCM:0.518; dG:0.261; lGD:0.379; rT:5.84; rD:-0.52; rF:-255.87; MX:68.13 -11.46 -172.98| R -250.546, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.00 | dd:0.118; aGD:0.117; dH:0.411 d:0.144; dCM:0.368; dG:0.144; lGD:0.261; rT:5.87; rD:-0.37; rF:-355.15; MX:74.00 -11.83 -528.13| R -349.655, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.00 | dd:0.113; aGD:0.114; dH:0.248 d:0.031; dCM:0.211; dG:0.031; lGD:0.144; rT:5.70; rD:-0.21; rF:553.61; MX:79.70 -12.04 25.48| R 559.102, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.6780 (040 of 059)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.974 d:1.521; dCM:2.099; dG:1.521; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.322, EO=F  P+
 E:3, A:4; j:-0.15, I:2; S:-1; P:0.30,0.25,-0.00 | dd:-0.000; aGD:0.027; dH:1.974 d:1.521; dCM:2.099; dG:1.521; lGD:1.521; rT:1.35; rD:-2.10; rF:0.00; MX:6.78 -4.20 0.00| R -0.744, EO=F  N
@@ -1355,9 +1355,9 @@ E:18, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.45 | dd:0.118; aGD:0.103; dH:0.598 d
 E:19, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.45 | dd:0.112; aGD:0.110; dH:0.443 d:0.223; dCM:0.400; dG:0.223; lGD:0.335; rT:5.48; rD:-0.40; rF:267.88; MX:70.28 -19.33 350.56| R 272.961, EO=F  P+
 E:20, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.45 | dd:0.101; aGD:0.103; dH:0.280 d:0.122; dCM:0.243; dG:0.122; lGD:0.223; rT:5.16; rD:-0.24; rF:367.37; MX:75.44 -19.57 717.93| R 372.290, EO=F  P+
 E:21, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.45 | dd:0.122; aGD:0.117; dH:0.197 d:0.000; dCM:0.054; dG:0.000; lGD:0.122; rT:5.87; rD:-0.05; rF:1067.22; MX:81.31 -19.63 1785.14| R 1073.034, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 779.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.6833 (041 of 060)  (reward=+1579.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.967 d:1.517; dCM:2.092; dG:1.517; lGD:1.662; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.333, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.669 d:1.367; dCM:1.795; dG:1.367; lGD:1.517; rT:6.98; rD:-1.79; rF:0.00; MX:12.40 -3.89 0.00| R 5.183, EO=F  P+
@@ -1395,9 +1395,9 @@ E:34, A:1; j:0.90, I:0; S:1; P:0.75,1.30,-0.15 | dd:0.179; aGD:0.107; dH:0.274 d
 E:35, A:0; j:0.75, I:0; S:-1; P:0.90,1.30,-0.15 | dd:-0.179; aGD:-0.107; dH:0.444 d:0.297; dCM:0.401; dG:0.297; lGD:0.118; rT:-5.37; rD:-0.40; rF:223.67; MX:70.03 -20.72 6368.46| R 217.899, EO=F  P+
 E:36, A:1; j:0.90, I:0; S:1; P:0.75,1.30,-0.15 | dd:0.179; aGD:0.107; dH:0.274 d:0.118; dCM:0.238; dG:0.118; lGD:0.297; rT:5.37; rD:-0.24; rF:373.03; MX:75.40 -20.96 6741.49| R 378.162, EO=F  P+
 E:37, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.15 | dd:0.118; aGD:0.115; dH:0.200 d:0.000; dCM:0.049; dG:0.000; lGD:0.118; rT:5.77; rD:-0.05; rF:1113.78; MX:81.17 -21.01 7855.27| R 1119.501, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 763.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.6885 (042 of 061)  (reward=+1563.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.144; aGD:0.108; dH:1.977 d:1.522; dCM:2.102; dG:1.522; lGD:1.667; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.317, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.139; dH:1.679 d:1.373; dCM:1.805; dG:1.373; lGD:1.522; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.91 0.00| R 5.166, EO=F  P+
@@ -1419,9 +1419,9 @@ E:18, A:0; j:0.75, I:0; S:-1; P:0.90,1.30,-0.00 | dd:-0.179; aGD:-0.108; dH:0.45
 E:19, A:1; j:0.90, I:0; S:1; P:0.75,1.30,-0.00 | dd:0.179; aGD:0.107; dH:0.282 d:0.124; dCM:0.245; dG:0.124; lGD:0.303; rT:5.37; rD:-0.25; rF:364.91; MX:75.35 -15.03 1885.04| R 370.035, EO=F  P+
 E:20, A:4; j:-0.15, I:2; S:-1; P:0.90,1.30,-0.00 | dd:0.000; aGD:0.027; dH:0.282 d:0.124; dCM:0.245; dG:0.124; lGD:0.124; rT:1.34; rD:-0.25; rF:364.90; MX:76.69 -15.28 2249.95| R 366.003, EO=F  P+
 E:21, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.15 | dd:0.124; aGD:0.100; dH:0.196 d:0.000; dCM:0.057; dG:0.000; lGD:0.124; rT:4.99; rD:-0.06; rF:1047.77; MX:81.68 -15.33 3297.72| R 1052.701, EO=F  P+
-COLL SIZE:5; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:5; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 779.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.6935 (043 of 062)  (reward=+1579.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.327, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.672 d:1.369; dCM:1.798; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.178, EO=F  P+
@@ -1438,9 +1438,9 @@ E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,0.00 | dd:0.118; aGD:0.104; dH:0.595 d:
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,0.00 | dd:0.112; aGD:0.110; dH:0.440 d:0.221; dCM:0.397; dG:0.221; lGD:0.333; rT:5.49; rD:-0.40; rF:269.66; MX:70.30 -13.39 352.48| R 274.748, EO=F  P+
 E:15, A:3; j:1.30, I:1; S:1; P:0.90,1.15,0.00 | dd:0.101; aGD:0.103; dH:0.277 d:0.120; dCM:0.240; dG:0.120; lGD:0.221; rT:5.16; rD:-0.24; rF:370.51; MX:75.46 -13.63 722.98| R 375.422, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,0.00 | dd:0.120; aGD:0.116; dH:0.199 d:0.000; dCM:0.051; dG:0.000; lGD:0.120; rT:5.79; rD:-0.05; rF:1092.67; MX:81.24 -13.68 1815.66| R 1098.406, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.6984 (044 of 063)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.963 d:1.515; dCM:2.088; dG:1.515; lGD:1.660; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.339, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.665 d:1.365; dCM:1.791; dG:1.365; lGD:1.515; rT:6.98; rD:-1.79; rF:0.00; MX:12.41 -3.88 0.00| R 5.189, EO=F  P+
@@ -1458,9 +1458,9 @@ E:14, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.15 | dd:0.118; aGD:0.092; dH:0.590 d
 E:15, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.15 | dd:0.112; aGD:0.107; dH:0.435 d:0.216; dCM:0.392; dG:0.216; lGD:0.328; rT:5.34; rD:-0.39; rF:272.91; MX:70.40 -14.01 355.99| R 277.852, EO=F  P+
 E:16, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.15 | dd:0.101; aGD:0.102; dH:0.272 d:0.116; dCM:0.235; dG:0.116; lGD:0.216; rT:5.11; rD:-0.24; rF:376.26; MX:75.51 -14.25 732.26| R 381.135, EO=F  P+
 E:17, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.15 | dd:0.116; aGD:0.112; dH:0.201 d:0.000; dCM:0.046; dG:0.000; lGD:0.116; rT:5.62; rD:-0.05; rF:1141.47; MX:81.13 -14.29 1873.73| R 1147.048, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 783.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7031 (045 of 064)  (reward=+1583.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.973 d:1.520; dCM:2.098; dG:1.520; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.323, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.139; dH:1.675 d:1.371; dCM:1.801; dG:1.371; lGD:1.520; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.90 0.00| R 5.173, EO=F  P+
@@ -1477,9 +1477,9 @@ E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.00 | dd:0.118; aGD:0.114; dH:0.597 d
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.00 | dd:0.112; aGD:0.112; dH:0.442 d:0.223; dCM:0.399; dG:0.223; lGD:0.335; rT:5.62; rD:-0.40; rF:268.24; MX:70.23 -13.71 350.95| R 273.463, EO=F  P+
 E:15, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.00 | dd:0.101; aGD:0.104; dH:0.279 d:0.122; dCM:0.242; dG:0.122; lGD:0.223; rT:5.20; rD:-0.24; rF:368.01; MX:75.43 -13.95 718.95| R 372.959, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.00 | dd:0.122; aGD:0.117; dH:0.198 d:0.000; dCM:0.054; dG:0.000; lGD:0.122; rT:5.86; rD:-0.05; rF:1072.31; MX:81.29 -14.01 1791.26| R 1078.123, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7077 (046 of 065)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.109; dH:1.966 d:1.517; dCM:2.091; dG:1.517; lGD:1.662; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.334, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.668 d:1.367; dCM:1.794; dG:1.367; lGD:1.517; rT:6.98; rD:-1.79; rF:0.00; MX:12.40 -3.89 0.00| R 5.184, EO=F  P+
@@ -1496,9 +1496,9 @@ E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,0.00 | dd:0.118; aGD:0.114; dH:0.592 d:
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,0.00 | dd:0.112; aGD:0.112; dH:0.437 d:0.218; dCM:0.394; dG:0.218; lGD:0.330; rT:5.61; rD:-0.39; rF:271.46; MX:70.29 -13.65 354.43| R 276.678, EO=F  P+
 E:15, A:3; j:1.30, I:1; S:1; P:0.90,1.15,0.00 | dd:0.101; aGD:0.104; dH:0.274 d:0.118; dCM:0.237; dG:0.118; lGD:0.218; rT:5.18; rD:-0.24; rF:373.69; MX:75.47 -13.89 728.12| R 378.634, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,0.00 | dd:0.118; aGD:0.114; dH:0.200 d:0.000; dCM:0.048; dG:0.000; lGD:0.118; rT:5.71; rD:-0.05; rF:1119.33; MX:81.18 -13.93 1847.45| R 1124.988, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7121 (047 of 066)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.976 d:1.522; dCM:2.101; dG:1.522; lGD:1.666; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.318, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.139; dH:1.678 d:1.372; dCM:1.804; dG:1.372; lGD:1.522; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.91 0.00| R 5.168, EO=F  P+
@@ -1515,9 +1515,9 @@ E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.00 | dd:0.118; aGD:0.104; dH:0.599 d
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.00 | dd:0.112; aGD:0.110; dH:0.444 d:0.225; dCM:0.401; dG:0.225; lGD:0.337; rT:5.49; rD:-0.40; rF:266.84; MX:70.25 -13.48 349.43| R 271.930, EO=F  P+
 E:15, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.00 | dd:0.101; aGD:0.103; dH:0.281 d:0.124; dCM:0.245; dG:0.124; lGD:0.225; rT:5.17; rD:-0.24; rF:365.54; MX:75.42 -13.72 714.96| R 370.461, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.00 | dd:0.124; aGD:0.119; dH:0.197 d:0.000; dCM:0.056; dG:0.000; lGD:0.124; rT:5.93; rD:-0.06; rF:1052.68; MX:81.35 -13.78 1767.64| R 1058.550, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7164 (048 of 067)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.969 d:1.518; dCM:2.094; dG:1.518; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.329, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.671 d:1.369; dCM:1.797; dG:1.369; lGD:1.518; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.179, EO=F  P+
@@ -1531,9 +1531,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,0.00 | dd:0.116; aGD:0.115; dH:0.711 d:
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.00 | dd:0.118; aGD:0.117; dH:0.566 d:0.261; dCM:0.518; dG:0.261; lGD:0.379; rT:5.84; rD:-0.52; rF:-255.42; MX:68.13 -11.47 -172.57| R -250.098, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.00 | dd:0.118; aGD:0.117; dH:0.411 d:0.144; dCM:0.368; dG:0.144; lGD:0.261; rT:5.87; rD:-0.37; rF:-354.26; MX:74.00 -11.83 -526.83| R -348.765, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.00 | dd:0.113; aGD:0.114; dH:0.248 d:0.031; dCM:0.211; dG:0.031; lGD:0.144; rT:5.69; rD:-0.21; rF:551.36; MX:79.69 -12.04 24.52| R 556.833, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.7206 (049 of 068)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.964 d:1.516; dCM:2.089; dG:1.516; lGD:1.661; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.339, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.666 d:1.366; dCM:1.792; dG:1.366; lGD:1.516; rT:6.98; rD:-1.79; rF:0.00; MX:12.41 -3.88 0.00| R 5.188, EO=F  P+
@@ -1548,9 +1548,9 @@ E:11, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.00 | dd:0.118; aGD:0.118; dH:0.591 d
 E:12, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.00 | dd:0.112; aGD:0.113; dH:0.436 d:0.217; dCM:0.393; dG:0.217; lGD:0.329; rT:5.66; rD:-0.39; rF:272.50; MX:70.29 -12.27 362.75| R 277.763, EO=F  P+
 E:13, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.00 | dd:0.101; aGD:0.104; dH:0.273 d:0.116; dCM:0.236; dG:0.116; lGD:0.217; rT:5.19; rD:-0.24; rF:375.57; MX:75.48 -12.50 738.32| R 380.527, EO=F  P+
 E:14, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.00 | dd:0.116; aGD:0.113; dH:0.201 d:0.000; dCM:0.047; dG:0.000; lGD:0.116; rT:5.66; rD:-0.05; rF:1136.35; MX:81.14 -12.55 1874.68| R 1141.963, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 786.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7246 (050 of 069)  (reward=+1586.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.974 d:1.521; dCM:2.099; dG:1.521; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.322, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.676 d:1.371; dCM:1.802; dG:1.371; lGD:1.521; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.90 0.00| R 5.172, EO=F  P+
@@ -1567,9 +1567,9 @@ E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,0.00 | dd:0.118; aGD:0.104; dH:0.598 d:
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,0.00 | dd:0.112; aGD:0.110; dH:0.443 d:0.223; dCM:0.400; dG:0.223; lGD:0.335; rT:5.49; rD:-0.40; rF:267.84; MX:70.27 -13.43 350.51| R 272.936, EO=F  P+
 E:15, A:3; j:1.30, I:1; S:1; P:0.90,1.15,0.00 | dd:0.101; aGD:0.103; dH:0.280 d:0.122; dCM:0.243; dG:0.122; lGD:0.223; rT:5.17; rD:-0.24; rF:367.34; MX:75.44 -13.67 717.86| R 372.264, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,0.00 | dd:0.122; aGD:0.117; dH:0.198 d:0.000; dCM:0.055; dG:0.000; lGD:0.122; rT:5.87; rD:-0.05; rF:1067.75; MX:81.31 -13.73 1785.60| R 1073.567, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7286 (051 of 070)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.967 d:1.517; dCM:2.092; dG:1.517; lGD:1.662; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.333, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.669 d:1.367; dCM:1.795; dG:1.367; lGD:1.517; rT:6.98; rD:-1.79; rF:0.00; MX:12.40 -3.89 0.00| R 5.183, EO=F  P+
@@ -1583,9 +1583,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.115; dH:0.709 d
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.117; aGD:0.117; dH:0.565 d:0.260; dCM:0.516; dG:0.260; lGD:0.378; rT:5.84; rD:-0.52; rF:-256.42; MX:68.15 -11.45 -173.49| R -251.099, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.409 d:0.143; dCM:0.367; dG:0.143; lGD:0.260; rT:5.87; rD:-0.37; rF:-356.13; MX:74.01 -11.82 -529.62| R -350.633, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.113; aGD:0.114; dH:0.246 d:0.030; dCM:0.210; dG:0.030; lGD:0.143; rT:5.69; rD:-0.21; rF:555.70; MX:79.71 -12.03 26.08| R 561.179, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.7324 (052 of 071)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.972 d:1.520; dCM:2.097; dG:1.520; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.324, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.674 d:1.370; dCM:1.801; dG:1.370; lGD:1.520; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.90 0.00| R 5.173, EO=F  P+
@@ -1605,9 +1605,9 @@ E:16, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.15 | dd:0.118; aGD:0.100; dH:0.596 d
 E:17, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.15 | dd:0.112; aGD:0.109; dH:0.441 d:0.223; dCM:0.398; dG:0.223; lGD:0.334; rT:5.44; rD:-0.40; rF:268.46; MX:70.29 -15.10 15.56| R 273.504, EO=F  P+
 E:18, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.15 | dd:0.101; aGD:0.103; dH:0.278 d:0.121; dCM:0.241; dG:0.121; lGD:0.223; rT:5.15; rD:-0.24; rF:368.33; MX:75.44 -15.34 383.89| R 373.238, EO=F  P+
 E:19, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.15 | dd:0.121; aGD:0.117; dH:0.197 d:0.000; dCM:0.053; dG:0.000; lGD:0.121; rT:5.84; rD:-0.05; rF:1073.67; MX:81.29 -15.39 1457.56| R 1079.459, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 781.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7361 (053 of 072)  (reward=+1581.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.972 d:1.520; dCM:2.097; dG:1.520; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.326, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.673 d:1.370; dCM:1.800; dG:1.370; lGD:1.520; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.90 0.00| R 5.176, EO=F  P+
@@ -1621,7 +1621,7 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.114; dH:0.713 d
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.118; aGD:0.117; dH:0.569 d:0.263; dCM:0.520; dG:0.263; lGD:0.381; rT:5.84; rD:-0.52; rF:-254.31; MX:68.11 -11.49 -171.56| R -248.991, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.413 d:0.146; dCM:0.370; dG:0.146; lGD:0.263; rT:5.87; rD:-0.37; rF:-352.28; MX:73.97 -11.86 -523.83| R -346.782, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.113; aGD:0.114; dH:0.251 d:0.033; dCM:0.214; dG:0.033; lGD:0.146; rT:5.70; rD:-0.21; rF:-547.03; MX:79.68 -12.07 -1070.86| R -541.541, EO=F  N
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
 Current Accuracy:  0.7397 (054 of 073)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.109; dH:1.966 d:1.517; dCM:2.091; dG:1.517; lGD:1.662; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.335, EO=F  P+
@@ -1639,9 +1639,9 @@ E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,0.00 | dd:0.118; aGD:0.104; dH:0.594 d:
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,0.00 | dd:0.112; aGD:0.110; dH:0.438 d:0.219; dCM:0.396; dG:0.219; lGD:0.330; rT:5.49; rD:-0.40; rF:271.31; MX:70.33 -13.37 354.27| R 276.406, EO=F  P+
 E:15, A:3; j:1.30, I:1; S:1; P:0.90,1.15,0.00 | dd:0.101; aGD:0.103; dH:0.275 d:0.118; dCM:0.239; dG:0.118; lGD:0.219; rT:5.16; rD:-0.24; rF:373.54; MX:75.49 -13.60 727.81| R 378.460, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,0.00 | dd:0.118; aGD:0.114; dH:0.201 d:0.000; dCM:0.049; dG:0.000; lGD:0.118; rT:5.70; rD:-0.05; rF:1120.61; MX:81.19 -13.65 1848.42| R 1126.263, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7432 (055 of 074)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.327, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.672 d:1.369; dCM:1.798; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.177, EO=F  P+
@@ -1658,9 +1658,9 @@ E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.00 | dd:0.118; aGD:0.104; dH:0.595 d
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.00 | dd:0.112; aGD:0.110; dH:0.440 d:0.221; dCM:0.397; dG:0.221; lGD:0.333; rT:5.48; rD:-0.40; rF:269.48; MX:70.30 -13.39 352.28| R 274.565, EO=F  P+
 E:15, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.00 | dd:0.101; aGD:0.103; dH:0.277 d:0.120; dCM:0.240; dG:0.120; lGD:0.221; rT:5.16; rD:-0.24; rF:370.16; MX:75.45 -13.63 722.44| R 375.076, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.00 | dd:0.120; aGD:0.116; dH:0.198 d:0.000; dCM:0.051; dG:0.000; lGD:0.120; rT:5.80; rD:-0.05; rF:1089.33; MX:81.25 -13.69 1811.77| R 1095.070, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7467 (056 of 075)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.969 d:1.519; dCM:2.094; dG:1.519; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.330, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.671 d:1.369; dCM:1.797; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.180, EO=F  P+
@@ -1675,9 +1675,9 @@ E:11, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.15 | dd:0.116; aGD:0.109; dH:0.712 d
 E:12, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.15 | dd:0.117; aGD:0.115; dH:0.567 d:0.262; dCM:0.519; dG:0.262; lGD:0.379; rT:5.77; rD:-0.52; rF:-255.30; MX:68.14 -12.36 -172.46| R -250.055, EO=F  N
 E:13, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.15 | dd:0.118; aGD:0.117; dH:0.412 d:0.144; dCM:0.369; dG:0.144; lGD:0.262; rT:5.85; rD:-0.37; rF:-354.13; MX:73.99 -12.73 -526.59| R -348.647, EO=F  N
 E:14, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.15 | dd:0.113; aGD:0.114; dH:0.249 d:0.031; dCM:0.212; dG:0.031; lGD:0.144; rT:5.70; rD:-0.21; rF:-551.31; MX:79.70 -12.94 -1077.90| R -545.817, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 786.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.7500 (057 of 076)  (reward=+786.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.975 d:1.521; dCM:2.100; dG:1.521; lGD:1.666; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.320, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.677 d:1.372; dCM:1.803; dG:1.372; lGD:1.521; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.90 0.00| R 5.169, EO=F  P+
@@ -1694,9 +1694,9 @@ E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,0.00 | dd:0.118; aGD:0.104; dH:0.599 d:
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,0.00 | dd:0.112; aGD:0.110; dH:0.444 d:0.224; dCM:0.401; dG:0.224; lGD:0.336; rT:5.49; rD:-0.40; rF:267.31; MX:70.26 -13.44 349.93| R 272.397, EO=F  P+
 E:15, A:3; j:1.30, I:1; S:1; P:0.90,1.15,0.00 | dd:0.101; aGD:0.103; dH:0.281 d:0.123; dCM:0.244; dG:0.123; lGD:0.224; rT:5.17; rD:-0.24; rF:366.37; MX:75.43 -13.68 716.30| R 371.295, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,0.00 | dd:0.123; aGD:0.118; dH:0.197 d:0.000; dCM:0.055; dG:0.000; lGD:0.123; rT:5.90; rD:-0.06; rF:1059.53; MX:81.33 -13.74 1775.84| R 1065.377, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7532 (058 of 077)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.968 d:1.518; dCM:2.093; dG:1.518; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.331, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.670 d:1.368; dCM:1.796; dG:1.368; lGD:1.518; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.181, EO=F  P+
@@ -1710,9 +1710,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.115; dH:0.710 d
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.118; aGD:0.117; dH:0.566 d:0.261; dCM:0.517; dG:0.261; lGD:0.378; rT:5.84; rD:-0.52; rF:-255.88; MX:68.14 -11.46 -173.00| R -250.563, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.410 d:0.143; dCM:0.367; dG:0.143; lGD:0.261; rT:5.87; rD:-0.37; rF:-355.13; MX:74.01 -11.83 -528.12| R -349.628, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.113; aGD:0.114; dH:0.247 d:0.031; dCM:0.211; dG:0.031; lGD:0.143; rT:5.69; rD:-0.21; rF:553.35; MX:79.70 -12.04 25.23| R 558.828, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.7564 (059 of 078)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:4; j:-0.15, I:2; S:-1; P:0.15,0.25,0.00 | dd:0.000; aGD:0.000; dH:2.247 d:1.660; dCM:2.369; dG:1.660; lGD:1.660; rT:0.00; rD:-2.37; rF:0.00; MX:0.00 -2.37 0.00| R -2.369, EO=F  N
 E:3, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.15 | dd:0.145; aGD:0.109; dH:1.963 d:1.515; dCM:2.088; dG:1.515; lGD:1.660; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -4.46 0.00| R 3.340, EO=F  P+
@@ -1728,9 +1728,9 @@ E:12, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.15 | dd:0.118; aGD:0.118; dH:0.591 d
 E:13, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.15 | dd:0.112; aGD:0.113; dH:0.435 d:0.216; dCM:0.392; dG:0.216; lGD:0.328; rT:5.65; rD:-0.39; rF:272.99; MX:70.30 -14.33 356.08| R 278.248, EO=F  P+
 E:14, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.15 | dd:0.101; aGD:0.104; dH:0.272 d:0.116; dCM:0.236; dG:0.116; lGD:0.216; rT:5.19; rD:-0.24; rF:376.45; MX:75.49 -14.56 732.53| R 381.405, EO=F  P+
 E:15, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.15 | dd:0.116; aGD:0.113; dH:0.202 d:0.000; dCM:0.046; dG:0.000; lGD:0.116; rT:5.63; rD:-0.05; rF:1144.32; MX:81.12 -14.61 1876.85| R 1149.908, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 785.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7595 (060 of 079)  (reward=+1585.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.973 d:1.520; dCM:2.098; dG:1.520; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.323, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.675 d:1.371; dCM:1.801; dG:1.371; lGD:1.520; rT:6.97; rD:-1.80; rF:0.00; MX:12.40 -3.90 0.00| R 5.174, EO=F  P+
@@ -1747,9 +1747,9 @@ E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,0.00 | dd:0.118; aGD:0.104; dH:0.598 d:
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,0.00 | dd:0.112; aGD:0.110; dH:0.442 d:0.223; dCM:0.399; dG:0.223; lGD:0.335; rT:5.49; rD:-0.40; rF:268.31; MX:70.28 -13.42 351.02| R 273.408, EO=F  P+
 E:15, A:3; j:1.30, I:1; S:1; P:0.90,1.15,0.00 | dd:0.101; aGD:0.103; dH:0.280 d:0.122; dCM:0.243; dG:0.122; lGD:0.223; rT:5.16; rD:-0.24; rF:368.18; MX:75.44 -13.66 719.21| R 373.105, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,0.00 | dd:0.122; aGD:0.117; dH:0.198 d:0.000; dCM:0.054; dG:0.000; lGD:0.122; rT:5.85; rD:-0.05; rF:1074.79; MX:81.30 -13.72 1794.00| R 1080.588, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7625 (061 of 080)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.966 d:1.517; dCM:2.091; dG:1.517; lGD:1.662; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.335, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.668 d:1.367; dCM:1.794; dG:1.367; lGD:1.517; rT:6.98; rD:-1.79; rF:0.00; MX:12.40 -3.88 0.00| R 5.185, EO=F  P+
@@ -1765,9 +1765,9 @@ E:12, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.15 | dd:0.118; aGD:0.112; dH:0.593 d
 E:13, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.15 | dd:0.112; aGD:0.112; dH:0.437 d:0.218; dCM:0.395; dG:0.218; lGD:0.330; rT:5.59; rD:-0.39; rF:271.53; MX:70.30 -12.79 354.51| R 276.734, EO=F  P+
 E:14, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.15 | dd:0.101; aGD:0.104; dH:0.274 d:0.117; dCM:0.238; dG:0.117; lGD:0.218; rT:5.18; rD:-0.24; rF:373.87; MX:75.48 -13.03 728.38| R 378.816, EO=F  P+
 E:15, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.15 | dd:0.117; aGD:0.114; dH:0.201 d:0.000; dCM:0.049; dG:0.000; lGD:0.117; rT:5.70; rD:-0.05; rF:1122.06; MX:81.18 -13.08 1850.44| R 1127.707, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 785.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7654 (062 of 081)  (reward=+1585.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.327, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.672 d:1.369; dCM:1.798; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.177, EO=F  P+
@@ -1784,9 +1784,9 @@ E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,0.00 | dd:0.118; aGD:0.118; dH:0.594 d:
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,0.00 | dd:0.112; aGD:0.113; dH:0.439 d:0.221; dCM:0.396; dG:0.221; lGD:0.332; rT:5.65; rD:-0.40; rF:269.70; MX:70.24 -13.74 352.52| R 274.956, EO=F  P+
 E:15, A:3; j:1.30, I:1; S:1; P:0.90,1.15,0.00 | dd:0.101; aGD:0.104; dH:0.276 d:0.120; dCM:0.239; dG:0.120; lGD:0.221; rT:5.20; rD:-0.24; rF:370.49; MX:75.44 -13.98 723.01| R 375.445, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,0.00 | dd:0.120; aGD:0.116; dH:0.197 d:0.000; dCM:0.051; dG:0.000; lGD:0.120; rT:5.80; rD:-0.05; rF:1090.71; MX:81.23 -14.03 1813.72| R 1096.456, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7683 (063 of 082)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.969 d:1.518; dCM:2.094; dG:1.518; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.330, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.671 d:1.369; dCM:1.797; dG:1.369; lGD:1.518; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.179, EO=F  P+
@@ -1801,9 +1801,9 @@ E:11, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.00 | dd:0.118; aGD:0.118; dH:0.595 d
 E:12, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.00 | dd:0.112; aGD:0.113; dH:0.440 d:0.220; dCM:0.397; dG:0.220; lGD:0.332; rT:5.66; rD:-0.40; rF:270.10; MX:70.25 -12.00 352.95| R 275.362, EO=F  P+
 E:13, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.00 | dd:0.101; aGD:0.104; dH:0.277 d:0.119; dCM:0.240; dG:0.119; lGD:0.220; rT:5.20; rD:-0.24; rF:371.33; MX:75.45 -12.24 724.29| R 376.292, EO=F  P+
 E:14, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.00 | dd:0.119; aGD:0.115; dH:0.200 d:0.000; dCM:0.051; dG:0.000; lGD:0.119; rT:5.77; rD:-0.05; rF:1100.62; MX:81.23 -12.30 1824.90| R 1106.341, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 786.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7711 (064 of 083)  (reward=+1586.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.973 d:1.520; dCM:2.098; dG:1.520; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.322, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.675 d:1.370; dCM:1.801; dG:1.370; lGD:1.520; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.90 0.00| R 5.172, EO=F  P+
@@ -1817,9 +1817,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,0.00 | dd:0.116; aGD:0.115; dH:0.713 d:
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.00 | dd:0.118; aGD:0.117; dH:0.568 d:0.264; dCM:0.520; dG:0.264; lGD:0.381; rT:5.84; rD:-0.52; rF:-253.72; MX:68.11 -11.49 -171.01| R -248.398, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.00 | dd:0.118; aGD:0.117; dH:0.413 d:0.146; dCM:0.370; dG:0.146; lGD:0.264; rT:5.87; rD:-0.37; rF:-351.09; MX:73.98 -11.86 -522.10| R -345.591, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.00 | dd:0.112; aGD:0.114; dH:0.250 d:0.034; dCM:0.213; dG:0.034; lGD:0.146; rT:5.68; rD:-0.21; rF:543.98; MX:79.66 -12.07 21.88| R 549.444, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.7738 (065 of 084)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.968 d:1.518; dCM:2.093; dG:1.518; lGD:1.662; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.331, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.669 d:1.368; dCM:1.796; dG:1.368; lGD:1.518; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.181, EO=F  P+
@@ -1834,9 +1834,9 @@ E:11, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.593 d
 E:12, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.00 | dd:0.112; aGD:0.113; dH:0.438 d:0.219; dCM:0.395; dG:0.219; lGD:0.331; rT:5.65; rD:-0.39; rF:270.72; MX:70.26 -11.99 353.63| R 275.982, EO=F  P+
 E:13, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.00 | dd:0.101; aGD:0.104; dH:0.275 d:0.119; dCM:0.238; dG:0.119; lGD:0.219; rT:5.19; rD:-0.24; rF:372.34; MX:75.45 -12.23 725.97| R 377.294, EO=F  P+
 E:14, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.00 | dd:0.119; aGD:0.115; dH:0.199 d:0.000; dCM:0.049; dG:0.000; lGD:0.119; rT:5.74; rD:-0.05; rF:1106.86; MX:81.20 -12.28 1832.83| R 1112.560, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 786.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7765 (066 of 085)  (reward=+1586.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.109; dH:1.967 d:1.517; dCM:2.092; dG:1.517; lGD:1.662; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.334, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.668 d:1.367; dCM:1.795; dG:1.367; lGD:1.517; rT:6.98; rD:-1.79; rF:0.00; MX:12.40 -3.89 0.00| R 5.184, EO=F  P+
@@ -1850,9 +1850,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,0.00 | dd:0.116; aGD:0.115; dH:0.710 d:
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.00 | dd:0.117; aGD:0.117; dH:0.565 d:0.260; dCM:0.516; dG:0.260; lGD:0.378; rT:5.84; rD:-0.52; rF:-256.50; MX:68.14 -11.45 -173.56| R -251.184, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.00 | dd:0.118; aGD:0.117; dH:0.410 d:0.143; dCM:0.367; dG:0.143; lGD:0.260; rT:5.87; rD:-0.37; rF:-356.32; MX:74.01 -11.82 -529.89| R -350.824, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.00 | dd:0.113; aGD:0.114; dH:0.247 d:0.030; dCM:0.210; dG:0.030; lGD:0.143; rT:5.70; rD:-0.21; rF:556.25; MX:79.71 -12.03 26.37| R 561.742, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.7791 (067 of 086)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.972 d:1.520; dCM:2.097; dG:1.520; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.324, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.139; dH:1.674 d:1.370; dCM:1.801; dG:1.370; lGD:1.520; rT:6.97; rD:-1.80; rF:0.00; MX:12.40 -3.90 0.00| R 5.173, EO=F  P+
@@ -1866,8 +1866,8 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.115; dH:0.713 d
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.118; aGD:0.117; dH:0.568 d:0.264; dCM:0.520; dG:0.264; lGD:0.381; rT:5.84; rD:-0.52; rF:-253.98; MX:68.11 -11.49 -171.25| R -248.659, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.413 d:0.146; dCM:0.370; dG:0.146; lGD:0.264; rT:5.87; rD:-0.37; rF:-351.62; MX:73.98 -11.86 -522.87| R -346.118, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.113; aGD:0.114; dH:0.250 d:0.033; dCM:0.214; dG:0.033; lGD:0.146; rT:5.69; rD:-0.21; rF:545.34; MX:79.67 -12.07 22.47| R 550.812, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 E:14, A:0; j:0.90, I:0; S:-1; P:1.05,1.15,-0.00 | R 786.000, EO=T  P+
 Current Accuracy:  0.7816 (068 of 087)  (reward=+786.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.327, EO=F  P+
@@ -1885,9 +1885,9 @@ E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,0.00 | dd:0.118; aGD:0.104; dH:0.595 d:
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,0.00 | dd:0.112; aGD:0.110; dH:0.440 d:0.221; dCM:0.397; dG:0.221; lGD:0.333; rT:5.48; rD:-0.40; rF:269.60; MX:70.30 -13.39 352.42| R 274.690, EO=F  P+
 E:15, A:3; j:1.30, I:1; S:1; P:0.90,1.15,0.00 | dd:0.101; aGD:0.103; dH:0.277 d:0.120; dCM:0.240; dG:0.120; lGD:0.221; rT:5.16; rD:-0.24; rF:370.39; MX:75.46 -13.63 722.81| R 375.310, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,0.00 | dd:0.120; aGD:0.116; dH:0.198 d:0.000; dCM:0.051; dG:0.000; lGD:0.120; rT:5.79; rD:-0.05; rF:1091.53; MX:81.25 -13.68 1814.34| R 1097.267, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7841 (069 of 088)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.963 d:1.515; dCM:2.088; dG:1.515; lGD:1.660; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.339, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.665 d:1.365; dCM:1.791; dG:1.365; lGD:1.515; rT:6.98; rD:-1.79; rF:0.00; MX:12.41 -3.88 0.00| R 5.189, EO=F  P+
@@ -1908,9 +1908,9 @@ E:17, A:1; j:0.90, I:0; S:1; P:0.75,1.30,-0.00 | dd:0.179; aGD:0.107; dH:0.272 d
 E:18, A:2; j:1.15, I:1; S:-1; P:0.90,1.30,-0.00 | dd:-0.101; aGD:-0.049; dH:0.435 d:0.217; dCM:0.392; dG:0.217; lGD:0.116; rT:-2.44; rD:-0.39; rF:272.84; MX:72.99 -14.59 1605.88| R 270.012, EO=F  P+
 E:19, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.00 | dd:0.101; aGD:0.063; dH:0.272 d:0.116; dCM:0.235; dG:0.116; lGD:0.217; rT:3.17; rD:-0.24; rF:376.15; MX:76.16 -14.83 1982.03| R 379.079, EO=F  P+
 E:20, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.00 | dd:0.116; aGD:0.103; dH:0.201 d:0.000; dCM:0.046; dG:0.000; lGD:0.116; rT:5.14; rD:-0.05; rF:1140.23; MX:81.29 -14.87 3122.26| R 1145.318, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 780.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7865 (070 of 089)  (reward=+1580.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.973 d:1.520; dCM:2.098; dG:1.520; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.323, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.675 d:1.371; dCM:1.801; dG:1.371; lGD:1.520; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.90 0.00| R 5.173, EO=F  P+
@@ -1927,9 +1927,9 @@ E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,0.00 | dd:0.118; aGD:0.104; dH:0.597 d:
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,0.00 | dd:0.112; aGD:0.110; dH:0.442 d:0.223; dCM:0.399; dG:0.223; lGD:0.335; rT:5.49; rD:-0.40; rF:268.19; MX:70.28 -13.42 350.88| R 273.275, EO=F  P+
 E:15, A:3; j:1.30, I:1; S:1; P:0.90,1.15,0.00 | dd:0.101; aGD:0.103; dH:0.279 d:0.122; dCM:0.242; dG:0.122; lGD:0.223; rT:5.16; rD:-0.24; rF:367.90; MX:75.44 -13.66 718.78| R 372.816, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,0.00 | dd:0.122; aGD:0.117; dH:0.197 d:0.000; dCM:0.054; dG:0.000; lGD:0.122; rT:5.86; rD:-0.05; rF:1071.21; MX:81.30 -13.72 1790.00| R 1077.020, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7889 (071 of 090)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.966 d:1.517; dCM:2.091; dG:1.517; lGD:1.662; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.333, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.668 d:1.367; dCM:1.794; dG:1.367; lGD:1.517; rT:6.98; rD:-1.79; rF:0.00; MX:12.40 -3.89 0.00| R 5.184, EO=F  P+
@@ -1946,9 +1946,9 @@ E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.00 | dd:0.118; aGD:0.104; dH:0.592 d
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.00 | dd:0.112; aGD:0.110; dH:0.437 d:0.218; dCM:0.394; dG:0.218; lGD:0.330; rT:5.48; rD:-0.39; rF:271.40; MX:70.33 -13.36 354.36| R 276.487, EO=F  P+
 E:15, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.00 | dd:0.101; aGD:0.103; dH:0.274 d:0.118; dCM:0.237; dG:0.118; lGD:0.218; rT:5.15; rD:-0.24; rF:373.58; MX:75.48 -13.60 727.94| R 378.488, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.00 | dd:0.118; aGD:0.114; dH:0.200 d:0.000; dCM:0.048; dG:0.000; lGD:0.118; rT:5.70; rD:-0.05; rF:1118.13; MX:81.18 -13.64 1846.07| R 1123.783, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7912 (072 of 091)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.976 d:1.522; dCM:2.101; dG:1.522; lGD:1.667; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.318, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.678 d:1.372; dCM:1.804; dG:1.372; lGD:1.522; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.91 0.00| R 5.167, EO=F  P+
@@ -1965,9 +1965,9 @@ E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,0.00 | dd:0.118; aGD:0.104; dH:0.599 d:
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,0.00 | dd:0.112; aGD:0.110; dH:0.444 d:0.225; dCM:0.401; dG:0.225; lGD:0.337; rT:5.49; rD:-0.40; rF:266.78; MX:70.25 -13.45 349.37| R 271.873, EO=F  P+
 E:15, A:3; j:1.30, I:1; S:1; P:0.90,1.15,0.00 | dd:0.101; aGD:0.103; dH:0.281 d:0.124; dCM:0.245; dG:0.124; lGD:0.225; rT:5.17; rD:-0.24; rF:365.43; MX:75.42 -13.69 714.80| R 370.353, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,0.00 | dd:0.124; aGD:0.119; dH:0.196 d:0.000; dCM:0.056; dG:0.000; lGD:0.124; rT:5.93; rD:-0.06; rF:1051.62; MX:81.35 -13.75 1766.42| R 1057.496, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.7935 (073 of 092)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.969 d:1.519; dCM:2.094; dG:1.519; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.329, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.671 d:1.369; dCM:1.797; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.179, EO=F  P+
@@ -1983,9 +1983,9 @@ E:12, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.30 | dd:0.116; aGD:0.114; dH:0.711 d
 E:13, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.30 | dd:0.118; aGD:0.117; dH:0.566 d:0.262; dCM:0.518; dG:0.262; lGD:0.379; rT:5.83; rD:-0.52; rF:-255.36; MX:68.13 -14.03 -172.52| R -250.047, EO=F  N
 E:14, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.30 | dd:0.118; aGD:0.117; dH:0.411 d:0.144; dCM:0.368; dG:0.144; lGD:0.262; rT:5.87; rD:-0.37; rF:-354.15; MX:74.00 -14.40 -526.67| R -348.654, EO=F  N
 E:15, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.30 | dd:0.113; aGD:0.114; dH:0.248 d:0.031; dCM:0.211; dG:0.031; lGD:0.144; rT:5.69; rD:-0.21; rF:551.07; MX:79.69 -14.61 24.41| R 556.549, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 785.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.7957 (074 of 093)  (reward=+785.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.964 d:1.516; dCM:2.089; dG:1.516; lGD:1.661; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.338, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.666 d:1.366; dCM:1.792; dG:1.366; lGD:1.516; rT:6.98; rD:-1.79; rF:0.00; MX:12.41 -3.88 0.00| R 5.188, EO=F  P+
@@ -1999,9 +1999,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.115; dH:0.707 d
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.117; aGD:0.117; dH:0.563 d:0.258; dCM:0.514; dG:0.258; lGD:0.376; rT:5.84; rD:-0.51; rF:-257.76; MX:68.17 -11.43 -174.71| R -252.435, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.117; aGD:0.117; dH:0.407 d:0.141; dCM:0.364; dG:0.141; lGD:0.258; rT:5.87; rD:-0.36; rF:-358.59; MX:74.04 -11.79 -533.30| R -353.092, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.113; aGD:0.114; dH:0.244 d:0.028; dCM:0.207; dG:0.028; lGD:0.141; rT:5.69; rD:-0.21; rF:561.30; MX:79.73 -12.00 28.00| R 566.782, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.7979 (075 of 094)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.328, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.671 d:1.369; dCM:1.798; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.177, EO=F  P+
@@ -2016,9 +2016,9 @@ E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.00 | dd:0.118; aGD:0.117; dH:0.566 d:
 E:12, A:5; j:0.15, I:2; S:1; P:1.05,0.85,0.00 | dd:-0.000; aGD:0.029; dH:0.566 d:0.262; dCM:0.517; dG:0.262; lGD:0.262; rT:1.46; rD:-0.52; rF:-255.21; MX:69.60 -11.98 -427.59| R -254.266, EO=F  N
 E:13, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.15 | dd:0.118; aGD:0.095; dH:0.411 d:0.144; dCM:0.368; dG:0.144; lGD:0.262; rT:4.77; rD:-0.37; rF:-353.83; MX:74.37 -12.35 -781.42| R -349.424, EO=F  N
 E:14, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.15 | dd:0.112; aGD:0.108; dH:0.248 d:0.032; dCM:0.211; dG:0.032; lGD:0.144; rT:5.40; rD:-0.21; rF:550.20; MX:79.77 -12.56 -231.22| R 555.390, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 786.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.8000 (076 of 095)  (reward=+786.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.328, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.672 d:1.369; dCM:1.798; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.178, EO=F  P+
@@ -2032,9 +2032,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.114; dH:0.712 d
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.117; aGD:0.117; dH:0.568 d:0.263; dCM:0.519; dG:0.263; lGD:0.380; rT:5.84; rD:-0.52; rF:-254.89; MX:68.11 -11.48 -172.09| R -249.576, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.413 d:0.145; dCM:0.370; dG:0.145; lGD:0.263; rT:5.87; rD:-0.37; rF:-353.37; MX:73.98 -11.85 -525.46| R -347.871, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.113; aGD:0.114; dH:0.250 d:0.032; dCM:0.213; dG:0.032; lGD:0.145; rT:5.71; rD:-0.21; rF:-549.56; MX:79.69 -12.06 -1075.02| R -544.065, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.8021 (077 of 096)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.976 d:1.522; dCM:2.101; dG:1.522; lGD:1.666; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.319, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.678 d:1.372; dCM:1.804; dG:1.372; lGD:1.522; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.90 0.00| R 5.168, EO=F  P+
@@ -2052,9 +2052,9 @@ E:14, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.15 | dd:0.113; aGD:0.114; dH:0.253 d:
 E:15, A:0; j:0.90, I:0; S:-1; P:1.05,1.15,0.15 | dd:-0.189; aGD:-0.113; dH:0.444 d:0.225; dCM:0.401; dG:0.225; lGD:0.036; rT:-5.67; rD:-0.40; rF:266.89; MX:73.98 -13.49 -790.55| R 260.823, EO=F  P+
 E:16, A:3; j:1.30, I:1; S:1; P:0.90,1.15,0.15 | dd:0.101; aGD:0.048; dH:0.281 d:0.123; dCM:0.245; dG:0.123; lGD:0.225; rT:2.38; rD:-0.24; rF:365.64; MX:76.35 -13.73 -424.91| R 367.772, EO=F  P+
 E:17, A:1; j:1.05, I:0; S:1; P:0.90,1.30,0.15 | dd:0.123; aGD:0.105; dH:0.197 d:0.000; dCM:0.056; dG:0.000; lGD:0.123; rT:5.23; rD:-0.06; rF:1053.49; MX:81.58 -13.79 628.58| R 1058.659, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 783.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.8041 (078 of 097)  (reward=+1583.00 WIN)
 E:1, A:5; j:0.15, I:2; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.15 | dd:0.138; aGD:0.104; dH:2.252 d:1.663; dCM:2.375; dG:1.663; lGD:1.801; rT:5.18; rD:-2.37; rF:0.00; MX:5.18 -2.37 0.00| R 2.807, EO=F  P+
 E:3, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.15 | dd:0.145; aGD:0.134; dH:1.969 d:1.518; dCM:2.094; dG:1.518; lGD:1.663; rT:6.72; rD:-2.09; rF:0.00; MX:11.90 -4.47 0.00| R 4.625, EO=F  P+
@@ -2069,9 +2069,9 @@ E:11, A:3; j:0.70, I:1; S:1; P:1.05,0.55,0.15 | dd:0.116; aGD:0.115; dH:0.710 d:
 E:12, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.15 | dd:0.118; aGD:0.117; dH:0.566 d:0.261; dCM:0.517; dG:0.261; lGD:0.379; rT:5.84; rD:-0.52; rF:-255.47; MX:75.04 -13.84 -172.62| R -250.152, EO=F  N
 E:13, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.15 | dd:0.118; aGD:0.117; dH:0.411 d:0.144; dCM:0.368; dG:0.144; lGD:0.261; rT:5.87; rD:-0.37; rF:-354.37; MX:80.91 -14.21 -526.98| R -348.866, EO=F  N
 E:14, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.15 | dd:0.113; aGD:0.114; dH:0.248 d:0.031; dCM:0.211; dG:0.031; lGD:0.144; rT:5.69; rD:-0.21; rF:551.59; MX:86.60 -14.42 24.60| R 557.067, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 786.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.8061 (079 of 098)  (reward=+786.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.964 d:1.516; dCM:2.089; dG:1.516; lGD:1.660; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.339, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.665 d:1.366; dCM:1.792; dG:1.366; lGD:1.516; rT:6.98; rD:-1.79; rF:0.00; MX:12.41 -3.88 0.00| R 5.189, EO=F  P+
@@ -2088,9 +2088,9 @@ E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.00 | dd:0.118; aGD:0.104; dH:0.591 d
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.00 | dd:0.112; aGD:0.110; dH:0.436 d:0.217; dCM:0.393; dG:0.217; lGD:0.329; rT:5.48; rD:-0.39; rF:272.55; MX:70.35 -13.34 355.61| R 277.643, EO=F  P+
 E:15, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.00 | dd:0.101; aGD:0.103; dH:0.273 d:0.116; dCM:0.236; dG:0.116; lGD:0.217; rT:5.15; rD:-0.24; rF:375.67; MX:75.50 -13.57 731.29| R 380.585, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.00 | dd:0.116; aGD:0.113; dH:0.201 d:0.000; dCM:0.047; dG:0.000; lGD:0.116; rT:5.64; rD:-0.05; rF:1137.29; MX:81.14 -13.62 1868.58| R 1142.890, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.8081 (080 of 099)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.974 d:1.521; dCM:2.099; dG:1.521; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.322, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.675 d:1.371; dCM:1.802; dG:1.371; lGD:1.521; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.90 0.00| R 5.172, EO=F  P+
@@ -2104,9 +2104,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,0.00 | dd:0.116; aGD:0.115; dH:0.714 d:
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.00 | dd:0.118; aGD:0.117; dH:0.570 d:0.265; dCM:0.521; dG:0.265; lGD:0.382; rT:5.84; rD:-0.52; rF:-253.38; MX:68.09 -11.50 -170.70| R -248.060, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.00 | dd:0.118; aGD:0.117; dH:0.415 d:0.147; dCM:0.372; dG:0.147; lGD:0.265; rT:5.87; rD:-0.37; rF:-350.55; MX:73.96 -11.87 -521.25| R -345.051, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.00 | dd:0.113; aGD:0.114; dH:0.252 d:0.034; dCM:0.215; dG:0.034; lGD:0.147; rT:5.70; rD:-0.22; rF:-543.05; MX:79.66 -12.09 -1064.30| R -537.561, EO=F  N
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.8100 (081 of 100)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.968 d:1.518; dCM:2.093; dG:1.518; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.331, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.670 d:1.368; dCM:1.796; dG:1.368; lGD:1.518; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.181, EO=F  P+
@@ -2166,9 +2166,9 @@ E:14, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.15 | dd:0.118; aGD:0.118; dH:0.591 d
 E:15, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.15 | dd:0.112; aGD:0.113; dH:0.436 d:0.217; dCM:0.393; dG:0.217; lGD:0.329; rT:5.65; rD:-0.39; rF:272.45; MX:70.29 -18.39 355.50| R 277.714, EO=F  P+
 E:16, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.15 | dd:0.101; aGD:0.104; dH:0.273 d:0.116; dCM:0.236; dG:0.116; lGD:0.217; rT:5.19; rD:-0.24; rF:375.48; MX:75.48 -18.62 730.98| R 380.435, EO=F  P+
 E:17, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.15 | dd:0.116; aGD:0.113; dH:0.201 d:0.000; dCM:0.047; dG:0.000; lGD:0.116; rT:5.66; rD:-0.05; rF:1135.33; MX:81.14 -18.67 1866.31| R 1140.946, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 783.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.8039 (082 of 102)  (reward=+1583.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.974 d:1.521; dCM:2.099; dG:1.521; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.322, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.139; dH:1.676 d:1.371; dCM:1.802; dG:1.371; lGD:1.521; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.90 0.00| R 5.172, EO=F  P+
@@ -2184,9 +2184,9 @@ E:12, A:3; j:1.00, I:1; S:1; P:0.90,0.85,0.15 | dd:0.118; aGD:0.118; dH:0.598 d:
 E:13, A:3; j:1.15, I:1; S:1; P:0.90,1.00,0.15 | dd:0.112; aGD:0.113; dH:0.443 d:0.223; dCM:0.400; dG:0.223; lGD:0.335; rT:5.66; rD:-0.40; rF:267.80; MX:70.21 -13.54 350.47| R 273.065, EO=F  P+
 E:14, A:3; j:1.30, I:1; S:1; P:0.90,1.15,0.15 | dd:0.101; aGD:0.104; dH:0.280 d:0.122; dCM:0.243; dG:0.122; lGD:0.223; rT:5.21; rD:-0.24; rF:367.25; MX:75.42 -13.78 717.72| R 372.220, EO=F  P+
 E:15, A:1; j:1.05, I:0; S:1; P:0.90,1.30,0.15 | dd:0.122; aGD:0.118; dH:0.198 d:0.000; dCM:0.055; dG:0.000; lGD:0.122; rT:5.89; rD:-0.05; rF:1066.85; MX:81.31 -13.84 1784.57| R 1072.683, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 785.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.8058 (083 of 103)  (reward=+1585.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.967 d:1.517; dCM:2.092; dG:1.517; lGD:1.662; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.333, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.669 d:1.367; dCM:1.795; dG:1.367; lGD:1.517; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.183, EO=F  P+
@@ -2201,9 +2201,9 @@ E:11, A:3; j:1.00, I:1; S:1; P:0.90,0.85,0.00 | dd:0.118; aGD:0.118; dH:0.593 d:
 E:12, A:3; j:1.15, I:1; S:1; P:0.90,1.00,0.00 | dd:0.112; aGD:0.113; dH:0.438 d:0.219; dCM:0.395; dG:0.219; lGD:0.331; rT:5.66; rD:-0.40; rF:271.01; MX:70.27 -11.99 353.94| R 276.270, EO=F  P+
 E:13, A:3; j:1.30, I:1; S:1; P:0.90,1.15,0.00 | dd:0.101; aGD:0.104; dH:0.275 d:0.118; dCM:0.238; dG:0.118; lGD:0.219; rT:5.20; rD:-0.24; rF:372.92; MX:75.46 -12.23 726.85| R 377.875, EO=F  P+
 E:14, A:1; j:1.05, I:0; S:1; P:0.90,1.30,0.00 | dd:0.118; aGD:0.115; dH:0.200 d:0.000; dCM:0.049; dG:0.000; lGD:0.118; rT:5.73; rD:-0.05; rF:1113.41; MX:81.19 -12.28 1840.27| R 1119.091, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 786.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.8077 (084 of 104)  (reward=+1586.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.971 d:1.519; dCM:2.096; dG:1.519; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.325, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.139; dH:1.673 d:1.369; dCM:1.799; dG:1.369; lGD:1.519; rT:6.97; rD:-1.80; rF:0.00; MX:12.40 -3.90 0.00| R 5.175, EO=F  P+
@@ -2217,9 +2217,9 @@ E:10, A:3; j:0.85, I:1; S:1; P:0.90,0.70,-0.00 | dd:0.119; aGD:0.116; dH:0.739 d
 E:11, A:1; j:1.05, I:0; S:1; P:0.90,0.85,-0.00 | dd:0.189; aGD:0.171; dH:0.567 d:0.262; dCM:0.518; dG:0.262; lGD:0.451; rT:8.53; rD:-0.52; rF:-254.57; MX:67.23 -11.59 -171.79| R -246.567, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.131; dH:0.411 d:0.145; dCM:0.369; dG:0.145; lGD:0.262; rT:6.54; rD:-0.37; rF:-352.65; MX:73.77 -11.96 -524.44| R -346.477, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.112; aGD:0.117; dH:0.248 d:0.033; dCM:0.212; dG:0.033; lGD:0.145; rT:5.84; rD:-0.21; rF:547.44; MX:79.61 -12.17 23.00| R 553.071, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.8095 (085 of 105)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.972 d:1.520; dCM:2.097; dG:1.520; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.325, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.673 d:1.370; dCM:1.800; dG:1.370; lGD:1.520; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.90 0.00| R 5.176, EO=F  P+
@@ -2233,9 +2233,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,0.00 | dd:0.116; aGD:0.117; dH:0.713 d:
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.00 | dd:0.117; aGD:0.117; dH:0.569 d:0.263; dCM:0.520; dG:0.263; lGD:0.381; rT:5.87; rD:-0.52; rF:-254.26; MX:68.09 -11.51 -171.51| R -248.911, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.00 | dd:0.118; aGD:0.118; dH:0.413 d:0.146; dCM:0.370; dG:0.146; lGD:0.263; rT:5.88; rD:-0.37; rF:-352.19; MX:73.97 -11.88 -523.70| R -346.684, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.00 | dd:0.113; aGD:0.114; dH:0.250 d:0.033; dCM:0.214; dG:0.033; lGD:0.146; rT:5.70; rD:-0.21; rF:-546.81; MX:79.67 -12.10 -1070.51| R -541.315, EO=F  N
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.8113 (086 of 106)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.967 d:1.517; dCM:2.092; dG:1.517; lGD:1.662; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.334, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.668 d:1.367; dCM:1.794; dG:1.367; lGD:1.517; rT:6.98; rD:-1.79; rF:0.00; MX:12.40 -3.89 0.00| R 5.184, EO=F  P+
@@ -2250,9 +2250,9 @@ E:11, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.00 | dd:0.118; aGD:0.118; dH:0.594 d
 E:12, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.00 | dd:0.112; aGD:0.113; dH:0.438 d:0.219; dCM:0.396; dG:0.219; lGD:0.330; rT:5.66; rD:-0.40; rF:271.27; MX:70.27 -11.99 354.22| R 276.534, EO=F  P+
 E:13, A:3; j:1.30, I:1; S:1; P:0.90,1.15,-0.00 | dd:0.101; aGD:0.104; dH:0.275 d:0.118; dCM:0.239; dG:0.118; lGD:0.219; rT:5.20; rD:-0.24; rF:373.45; MX:75.47 -12.23 727.67| R 378.412, EO=F  P+
 E:14, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.00 | dd:0.118; aGD:0.114; dH:0.201 d:0.000; dCM:0.049; dG:0.000; lGD:0.118; rT:5.72; rD:-0.05; rF:1119.62; MX:81.19 -12.28 1847.29| R 1125.287, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 786.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.8131 (087 of 107)  (reward=+1586.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.327, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.140; dH:1.672 d:1.369; dCM:1.799; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.177, EO=F  P+
@@ -2267,9 +2267,9 @@ E:11, A:3; j:1.00, I:1; S:1; P:0.90,0.85,0.00 | dd:0.118; aGD:0.118; dH:0.595 d:
 E:12, A:3; j:1.15, I:1; S:1; P:0.90,1.00,0.00 | dd:0.112; aGD:0.113; dH:0.440 d:0.221; dCM:0.397; dG:0.221; lGD:0.333; rT:5.66; rD:-0.40; rF:269.43; MX:70.24 -12.01 352.23| R 274.693, EO=F  P+
 E:13, A:3; j:1.30, I:1; S:1; P:0.90,1.15,0.00 | dd:0.101; aGD:0.104; dH:0.277 d:0.120; dCM:0.240; dG:0.120; lGD:0.221; rT:5.20; rD:-0.24; rF:370.07; MX:75.44 -12.25 722.31| R 375.031, EO=F  P+
 E:14, A:1; j:1.05, I:0; S:1; P:0.90,1.30,0.00 | dd:0.120; aGD:0.116; dH:0.198 d:0.000; dCM:0.051; dG:0.000; lGD:0.120; rT:5.81; rD:-0.05; rF:1088.40; MX:81.25 -12.30 1810.70| R 1094.152, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 786.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.8148 (088 of 108)  (reward=+1586.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.970 d:1.519; dCM:2.095; dG:1.519; lGD:1.663; rT:5.42; rD:-2.09; rF:0.00; MX:5.42 -2.09 0.00| R 3.329, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.671 d:1.369; dCM:1.798; dG:1.369; lGD:1.519; rT:6.98; rD:-1.80; rF:0.00; MX:12.40 -3.89 0.00| R 5.180, EO=F  P+
@@ -2285,9 +2285,9 @@ E:12, A:3; j:0.70, I:1; S:1; P:1.05,0.55,-0.00 | dd:0.116; aGD:0.114; dH:0.712 d
 E:13, A:3; j:0.85, I:1; S:1; P:1.05,0.70,-0.00 | dd:0.117; aGD:0.116; dH:0.567 d:0.262; dCM:0.519; dG:0.262; lGD:0.380; rT:5.82; rD:-0.52; rF:-255.26; MX:68.13 -14.38 -166.68| R -249.951, EO=F  N
 E:14, A:3; j:1.00, I:1; S:1; P:1.05,0.85,-0.00 | dd:0.118; aGD:0.117; dH:0.412 d:0.145; dCM:0.369; dG:0.145; lGD:0.262; rT:5.86; rD:-0.37; rF:-354.04; MX:73.99 -14.75 -520.72| R -348.543, EO=F  N
 E:15, A:3; j:1.15, I:1; S:1; P:1.05,1.00,-0.00 | dd:0.113; aGD:0.114; dH:0.249 d:0.031; dCM:0.212; dG:0.031; lGD:0.145; rT:5.70; rD:-0.21; rF:-551.08; MX:79.69 -14.96 -1071.80| R -545.587, EO=F  N
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 785.000, EO=T  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.8165 (089 of 109)  (reward=+785.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.975 d:1.521; dCM:2.100; dG:1.521; lGD:1.666; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.320, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.677 d:1.372; dCM:1.803; dG:1.372; lGD:1.521; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.90 0.00| R 5.169, EO=F  P+
@@ -2301,8 +2301,8 @@ E:10, A:3; j:0.85, I:1; S:1; P:0.90,0.70,0.00 | dd:0.119; aGD:0.116; dH:0.743 d:
 E:11, A:3; j:1.00, I:1; S:1; P:0.90,0.85,0.00 | dd:0.118; aGD:0.118; dH:0.599 d:0.336; dCM:0.550; dG:0.336; lGD:0.454; rT:5.88; rD:-0.55; rF:0.00; MX:64.54 -11.65 82.62| R 5.326, EO=F  P+
 E:12, A:3; j:1.15, I:1; S:1; P:0.90,1.00,0.00 | dd:0.112; aGD:0.113; dH:0.444 d:0.224; dCM:0.401; dG:0.224; lGD:0.336; rT:5.66; rD:-0.40; rF:267.26; MX:70.20 -12.05 349.88| R 272.527, EO=F  P+
 E:13, A:1; j:1.05, I:0; S:1; P:0.90,1.15,0.00 | dd:0.189; aGD:0.170; dH:0.253 d:0.035; dCM:0.216; dG:0.035; lGD:0.224; rT:8.51; rD:-0.22; rF:540.34; MX:78.71 -12.27 890.22| R 548.629, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 E:14, A:0; j:0.90, I:0; S:-1; P:1.05,1.15,0.00 | R 786.000, EO=T  P+
 Current Accuracy:  0.8182 (090 of 110)  (reward=+786.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.973 d:1.520; dCM:2.098; dG:1.520; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.323, EO=F  P+
@@ -2317,8 +2317,8 @@ E:10, A:3; j:0.85, I:1; S:1; P:0.90,0.70,-0.00 | dd:0.119; aGD:0.116; dH:0.741 d
 E:11, A:3; j:1.00, I:1; S:1; P:0.90,0.85,-0.00 | dd:0.118; aGD:0.118; dH:0.597 d:0.335; dCM:0.548; dG:0.335; lGD:0.452; rT:5.88; rD:-0.55; rF:0.00; MX:64.56 -11.63 82.71| R 5.327, EO=F  P+
 E:12, A:3; j:1.15, I:1; S:1; P:0.90,1.00,-0.00 | dd:0.112; aGD:0.113; dH:0.442 d:0.223; dCM:0.399; dG:0.223; lGD:0.335; rT:5.66; rD:-0.40; rF:268.32; MX:70.22 -12.03 351.03| R 273.585, EO=F  P+
 E:13, A:1; j:1.05, I:0; S:1; P:0.90,1.15,-0.00 | dd:0.189; aGD:0.170; dH:0.251 d:0.034; dCM:0.214; dG:0.034; lGD:0.223; rT:8.50; rD:-0.21; rF:544.54; MX:78.73 -12.25 895.57| R 552.826, EO=F  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 E:14, A:0; j:0.90, I:0; S:-1; P:1.05,1.15,-0.00 | R 786.000, EO=T  P+
 Current Accuracy:  0.8198 (091 of 111)  (reward=+786.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.971 d:1.519; dCM:2.096; dG:1.519; lGD:1.664; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.327, EO=F  P+
@@ -2333,9 +2333,9 @@ E:10, A:3; j:0.70, I:1; S:1; P:1.05,0.55,0.00 | dd:0.116; aGD:0.115; dH:0.712 d:
 E:11, A:3; j:0.85, I:1; S:1; P:1.05,0.70,0.00 | dd:0.118; aGD:0.117; dH:0.567 d:0.262; dCM:0.519; dG:0.262; lGD:0.380; rT:5.84; rD:-0.52; rF:-254.81; MX:68.12 -11.48 -172.01| R -249.487, EO=F  N
 E:12, A:3; j:1.00, I:1; S:1; P:1.05,0.85,0.00 | dd:0.118; aGD:0.117; dH:0.412 d:0.145; dCM:0.369; dG:0.145; lGD:0.262; rT:5.87; rD:-0.37; rF:-353.14; MX:73.99 -11.84 -525.15| R -347.644, EO=F  N
 E:13, A:3; j:1.15, I:1; S:1; P:1.05,1.00,0.00 | dd:0.113; aGD:0.114; dH:0.249 d:0.032; dCM:0.212; dG:0.032; lGD:0.145; rT:5.69; rD:-0.21; rF:548.82; MX:79.68 -12.06 23.67| R 554.297, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 787.000, EO=T  P+
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 Current Accuracy:  0.8214 (092 of 112)  (reward=+787.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.109; dH:1.965 d:1.516; dCM:2.090; dG:1.516; lGD:1.661; rT:5.43; rD:-2.09; rF:0.00; MX:5.43 -2.09 0.00| R 3.336, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.140; dH:1.667 d:1.367; dCM:1.793; dG:1.367; lGD:1.516; rT:6.98; rD:-1.79; rF:0.00; MX:12.41 -3.88 0.00| R 5.186, EO=F  P+
@@ -2352,9 +2352,9 @@ E:13, A:0; j:0.75, I:0; S:-1; P:0.90,1.15,-0.00 | dd:-0.187; aGD:-0.112; dH:0.59
 E:14, A:3; j:1.30, I:1; S:1; P:0.75,1.15,-0.00 | dd:0.109; aGD:0.054; dH:0.443 d:0.296; dCM:0.400; dG:0.296; lGD:0.405; rT:2.69; rD:-0.40; rF:224.15; MX:67.36 -12.93 759.09| R 226.440, EO=F  P+
 E:15, A:1; j:0.90, I:0; S:1; P:0.75,1.30,-0.00 | dd:0.179; aGD:0.148; dH:0.274 d:0.117; dCM:0.237; dG:0.117; lGD:0.296; rT:7.39; rD:-0.24; rF:374.42; MX:74.74 -13.16 1133.51| R 381.567, EO=F  P+
 E:16, A:1; j:1.05, I:0; S:1; P:0.90,1.30,-0.00 | dd:0.117; aGD:0.125; dH:0.201 d:0.000; dCM:0.048; dG:0.000; lGD:0.117; rT:6.24; rD:-0.05; rF:1126.55; MX:80.98 -13.21 2260.06| R 1132.736, EO=F  P+
-COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:2; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 R 784.000, EO=T  P+
-COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD 
+COLL SIZE:3; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripper_middle::middle_collision] 4 * REWARD
 Current Accuracy:  0.8230 (093 of 113)  (reward=+1584.00 WIN)
 E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,0.00 | dd:0.145; aGD:0.108; dH:1.975 d:1.522; dCM:2.100; dG:1.522; lGD:1.666; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.320, EO=F  P+
 E:3, A:1; j:0.45, I:0; S:1; P:0.30,0.25,0.00 | dd:0.150; aGD:0.139; dH:1.677 d:1.372; dCM:1.803; dG:1.372; lGD:1.522; rT:6.97; rD:-1.80; rF:0.00; MX:12.39 -3.90 0.00| R 5.170, EO=F  P+
@@ -2370,49 +2370,6 @@ E:12, A:3; j:0.85, I:1; S:1; P:0.90,0.70,0.00 | dd:0.119; aGD:0.114; dH:0.743 d:
 E:13, A:3; j:1.00, I:1; S:1; P:0.90,0.85,0.00 | dd:0.118; aGD:0.117; dH:0.599 d:0.336; dCM:0.550; dG:0.336; lGD:0.454; rT:5.84; rD:-0.55; rF:0.00; MX:64.55 -13.58 82.62| R 5.293, EO=F  P+
 E:14, A:3; j:1.15, I:1; S:1; P:0.90,1.00,0.00 | dd:0.112; aGD:0.113; dH:0.444 d:0.224; dCM:0.401; dG:0.224; lGD:0.336; rT:5.66; rD:-0.40; rF:267.22; MX:70.21 -13.98 349.84| R 272.476, EO=F  P+
 E:15, A:1; j:1.05, I:0; S:1; P:0.90,1.15,0.00 | dd:0.189; aGD:0.170; dH:0.253 d:0.035; dCM:0.216; dG:0.035; lGD:0.224; rT:8.51; rD:-0.22; rF:-540.33; MX:78.71 -14.20 -190.50| R -532.043, EO=F  N
-COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD 
+COLL SIZE:1; i:0Collision between[tube::tube_link::tube_collision] and [arm::gripperbase::gripper_link] 2 * REWARD
 E:16, A:0; j:0.90, I:0; S:-1; P:1.05,1.15,0.00 | R 784.000, EO=T  P+
 Current Accuracy:  0.8246 (094 of 114)  (reward=+784.00 WIN)
-E:1, A:1; j:0.15, I:0; S:1; P:-0.00,0.25,-0.00 | E:2, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.108; dH:1.973 d:1.520; dCM:2.098; dG:1.520; lGD:1.665; rT:5.42; rD:-2.10; rF:0.00; MX:5.42 -2.10 0.00| R 3.323, EO=F  P+
-E:3, A:0; j:0.15, I:0; S:-1; P:0.30,0.25,-0.00 | dd:-0.145; aGD:-0.081; dH:2.256 d:1.665; dCM:2.378; dG:1.665; lGD:1.520; rT:-4.07; rD:-2.38; rF:0.00; MX:1.35 -4.48 0.00| R -6.445, EO=F  N
-E:4, A:1; j:0.30, I:0; S:1; P:0.15,0.25,-0.00 | dd:0.145; aGD:0.088; dH:1.973 d:1.520; dCM:2.098; dG:1.520; lGD:1.665; rT:4.41; rD:-2.10; rF:0.00; MX:5.76 -6.57 0.00| R 2.307, EO=F  P+
-E:5, A:1; j:0.45, I:0; S:1; P:0.30,0.25,-0.00 | dd:0.150; aGD:0.134; dH:1.675 d:1.371; dCM:1.801; dG:1.371; lGD:1.520; rT:6.72; rD:-1.80; rF:0.00; MX:12.48 -8.38 0.00| R 4.919, EO=F  P+
-E:6, A:1; j:0.60, I:0; S:1; P:0.45,0.25,-0.00 | dd:0.154; aGD:0.149; dH:1.368 d:1.217; dCM:1.495; dG:1.217; lGD:1.371; rT:7.45; rD:-1.49; rF:0.00; MX:19.93 -9.87 0.00| R 5.953, EO=F  P+
-E:7, A:1; j:0.75, I:0; S:1; P:0.60,0.25,-0.00 | dd:0.158; aGD:0.155; dH:1.168 d:1.059; dCM:1.185; dG:1.059; lGD:1.217; rT:7.77; rD:-1.19; rF:82.71; MX:27.70 -11.06 82.71| R 89.294, EO=F  P+
-E:8, A:1; j:0.90, I:0; S:1; P:0.75,0.25,-0.00 | dd:0.174; aGD:0.169; dH:1.123 d:0.885; dCM:1.078; dG:0.885; lGD:1.059; rT:8.46; rD:-1.08; rF:0.00; MX:36.16 -12.13 82.71| R 7.382, EO=F  P+
-E:9, A:1; j:1.05, I:0; S:1; P:0.90,0.25,-0.00 | dd:0.182; aGD:0.178; dH:1.032 d:0.704; dCM:0.981; dG:0.704; lGD:0.885; rT:8.92; rD:-0.98; rF:0.00; MX:45.08 -13.11 82.71| R 7.940, EO=F  P+
-E:10, A:3; j:0.40, I:1; S:1; P:1.05,0.25,-0.00 | dd:0.101; aGD:0.120; dH:0.948 d:0.603; dCM:0.892; dG:0.603; lGD:0.704; rT:6.00; rD:-0.89; rF:0.00; MX:51.08 -14.01 82.71| R 5.108, EO=F  P+
-E:11, A:3; j:0.55, I:1; S:1; P:1.05,0.40,-0.00 | dd:0.105; aGD:0.109; dH:0.843 d:0.498; dCM:0.784; dG:0.498; lGD:0.603; rT:5.45; rD:-0.78; rF:0.00; MX:56.53 -14.79 82.71| R 4.669, EO=F  P+
-E:12, A:0; j:0.90, I:0; S:-1; P:1.05,0.55,-0.00 | dd:-0.182; aGD:-0.110; dH:0.977 d:0.680; dCM:0.920; dG:0.680; lGD:0.498; rT:-5.48; rD:-0.92; rF:0.00; MX:51.06 -15.71 82.71| R -6.396, EO=F  N
-E:13, A:0; j:0.75, I:0; S:-1; P:0.90,0.55,-0.00 | dd:-0.181; aGD:-0.163; dH:1.066 d:0.861; dCM:1.015; dG:0.861; lGD:0.680; rT:-8.14; rD:-1.02; rF:98.92; MX:42.92 -16.73 181.63| R 89.760, EO=F  P+
-E:14, A:3; j:0.70, I:1; S:1; P:0.75,0.55,-0.00 | dd:0.107; aGD:0.039; dH:0.982 d:0.754; dCM:0.926; dG:0.754; lGD:0.861; rT:1.96; rD:-0.93; rF:0.00; MX:44.88 -17.65 181.63| R 1.037, EO=F  P+
-E:15, A:3; j:0.85, I:1; S:1; P:0.75,0.70,-0.00 | dd:0.110; aGD:0.093; dH:0.877 d:0.644; dCM:0.818; dG:0.644; lGD:0.754; rT:4.63; rD:-0.82; rF:0.00; MX:49.51 -18.47 181.63| R 3.811, EO=F  P+
-E:16, A:3; j:1.00, I:1; S:1; P:0.75,0.85,-0.00 | dd:0.118; aGD:0.112; dH:0.748 d:0.525; dCM:0.693; dG:0.525; lGD:0.644; rT:5.60; rD:-0.69; rF:148.05; MX:55.11 -19.16 329.68| R 152.959, EO=F  P+
-E:17, A:3; j:1.15, I:1; S:1; P:0.75,1.00,-0.00 | dd:0.115; aGD:0.114; dH:0.603 d:0.410; dCM:0.555; dG:0.410; lGD:0.525; rT:5.72; rD:-0.55; rF:178.50; MX:60.83 -19.72 508.17| R 183.664, EO=F  P+
-E:18, A:3; j:1.30, I:1; S:1; P:0.75,1.15,-0.00 | dd:0.109; aGD:0.111; dH:0.448 d:0.301; dCM:0.405; dG:0.301; lGD:0.410; rT:5.53; rD:-0.41; rF:221.80; MX:66.36 -20.12 729.98| R 226.928, EO=F  P+
-E:19, A:3; j:1.45, I:1; S:1; P:0.75,1.30,-0.00 | dd:0.101; aGD:0.103; dH:0.285 d:0.200; dCM:0.350; dG:0.200; lGD:0.301; rT:5.17; rD:-0.35; rF:285.91; MX:71.53 -20.47 1015.89| R 290.733, EO=F  P+
-E:20, A:1; j:0.90, I:0; S:1; P:0.75,1.45,-0.00 | dd:0.169; aGD:0.152; dH:0.113 d:0.031; dCM:0.186; dG:0.031; lGD:0.200; rT:7.62; rD:-0.19; rF:552.08; MX:79.15 -20.66 1567.96| R 559.507, EO=F  P+
-E:21, A:0; j:0.75, I:0; S:-1; P:0.90,1.45,-0.00 | dd:-0.169; aGD:-0.088; dH:0.285 d:0.200; dCM:0.350; dG:0.200; lGD:0.031; rT:-4.42; rD:-0.35; rF:285.90; MX:74.73 -21.01 1853.87| R 281.135, EO=F  P+
-E:22, A:1; j:0.90, I:0; S:1; P:0.75,1.45,-0.00 | dd:0.169; aGD:0.104; dH:0.113 d:0.031; dCM:0.186; dG:0.031; lGD:0.200; rT:5.22; rD:-0.19; rF:552.08; MX:79.95 -21.20 2405.95| R 557.114, EO=F  P+
-E:23, A:0; j:0.75, I:0; S:-1; P:0.90,1.45,-0.00 | dd:-0.169; aGD:-0.100; dH:0.285 d:0.200; dCM:0.350; dG:0.200; lGD:0.031; rT:-5.02; rD:-0.35; rF:285.90; MX:74.93 -21.55 2691.85| R 280.535, EO=F  P+
-E:24, A:4; j:-0.15, I:2; S:-1; P:0.75,1.45,-0.00 | dd:0.000; aGD:-0.025; dH:0.285 d:0.200; dCM:0.350; dG:0.200; lGD:0.200; rT:-1.25; rD:-0.35; rF:285.91; MX:73.68 -21.90 2977.76| R 284.302, EO=F  P+
-E:25, A:1; j:0.90, I:0; S:1; P:0.75,1.45,-0.15 | dd:0.169; aGD:0.120; dH:0.113 d:0.031; dCM:0.186; dG:0.031; lGD:0.200; rT:6.01; rD:-0.19; rF:552.08; MX:79.69 -22.08 3529.84| R 557.902, EO=F  P+
-E:26, A:0; j:0.75, I:0; S:-1; P:0.90,1.45,-0.15 | dd:-0.169; aGD:-0.096; dH:0.285 d:0.200; dCM:0.350; dG:0.200; lGD:0.031; rT:-4.82; rD:-0.35; rF:285.90; MX:74.87 -22.43 3815.74| R 280.733, EO=F  P+
-E:27, A:1; j:0.90, I:0; S:1; P:0.75,1.45,-0.15 | dd:0.169; aGD:0.102; dH:0.113 d:0.031; dCM:0.186; dG:0.031; lGD:0.200; rT:5.12; rD:-0.19; rF:552.08; MX:79.98 -22.62 4367.83| R 557.016, EO=F  P+
-E:28, A:0; j:0.75, I:0; S:-1; P:0.90,1.45,-0.15 | dd:-0.169; aGD:-0.101; dH:0.285 d:0.200; dCM:0.350; dG:0.200; lGD:0.031; rT:-5.04; rD:-0.35; rF:285.90; MX:74.94 -22.97 4653.73| R 280.510, EO=F  P+
-E:29, A:1; j:0.90, I:0; S:1; P:0.75,1.45,-0.15 | dd:0.169; aGD:0.101; dH:0.113 d:0.031; dCM:0.186; dG:0.031; lGD:0.200; rT:5.06; rD:-0.19; rF:552.08; MX:80.00 -23.15 5205.81| R 556.958, EO=F  P+
-E:30, A:0; j:0.75, I:0; S:-1; P:0.90,1.45,-0.15 | dd:-0.169; aGD:-0.101; dH:0.285 d:0.200; dCM:0.350; dG:0.200; lGD:0.031; rT:-5.06; rD:-0.35; rF:285.90; MX:74.95 -23.51 5491.72| R 280.496, EO=F  P+
-E:31, A:1; j:0.90, I:0; S:1; P:0.75,1.45,-0.15 | dd:0.169; aGD:0.101; dH:0.113 d:0.031; dCM:0.186; dG:0.031; lGD:0.200; rT:5.06; rD:-0.19; rF:552.08; MX:80.00 -23.69 6043.80| R 556.956, EO=F  P+
-E:32, A:0; j:0.75, I:0; S:-1; P:0.90,1.45,-0.15 | dd:-0.169; aGD:-0.101; dH:0.285 d:0.200; dCM:0.350; dG:0.200; lGD:0.031; rT:-5.06; rD:-0.35; rF:285.90; MX:74.95 -24.04 6329.70| R 280.496, EO=F  P+
-E:33, A:1; j:0.90, I:0; S:1; P:0.75,1.45,-0.15 | dd:0.169; aGD:0.101; dH:0.113 d:0.031; dCM:0.186; dG:0.031; lGD:0.200; rT:5.06; rD:-0.19; rF:552.08; MX:80.00 -24.23 6881.79| R 556.956, EO=F  P+
-E:34, A:0; j:0.75, I:0; S:-1; P:0.90,1.45,-0.15 | dd:-0.169; aGD:-0.101; dH:0.285 d:0.200; dCM:0.350; dG:0.200; lGD:0.031; rT:-5.06; rD:-0.35; rF:285.90; MX:74.95 -24.58 7167.69| R 280.496, EO=F  P+
-E:35, A:1; j:0.90, I:0; S:1; P:0.75,1.45,-0.15 | dd:0.169; aGD:0.101; dH:0.113 d:0.031; dCM:0.186; dG:0.031; lGD:0.200; rT:5.06; rD:-0.19; rF:552.08; MX:80.00 -24.76 7719.77| R 556.956, EO=F  P+
-E:36, A:5; j:-0.00, I:2; S:1; P:0.90,1.45,-0.15 | dd:-0.000; aGD:0.025; dH:0.113 d:0.031; dCM:0.186; dG:0.031; lGD:0.031; rT:1.26; rD:-0.19; rF:552.07; MX:81.27 -24.95 8271.85| R 553.150, EO=F  P+
-E:37, A:0; j:0.75, I:0; S:-1; P:0.90,1.45,-0.00 | dd:-0.169; aGD:-0.120; dH:0.285 d:0.200; dCM:0.350; dG:0.200; lGD:0.031; rT:-6.01; rD:-0.35; rF:285.91; MX:75.26 -25.30 8557.75| R 279.549, EO=F  P+
-E:38, A:0; j:0.60, I:0; S:-1; P:0.75,1.45,-0.00 | dd:-0.168; aGD:-0.156; dH:0.432 d:0.367; dCM:0.537; dG:0.367; lGD:0.200; rT:-7.78; rD:-0.54; rF:193.32; MX:67.48 -25.84 8751.07| R 184.998, EO=F  P+
-E:39, A:3; j:1.60, I:1; S:1; P:0.60,1.45,-0.00 | dd:0.096; aGD:0.033; dH:0.374 d:0.271; dCM:0.500; dG:0.271; lGD:0.367; rT:1.65; rD:-0.50; rF:0.00; MX:69.13 -26.34 8751.07| R 1.153, EO=F  P+
-E:40, A:3; j:1.75, I:1; S:1; P:0.60,1.60,-0.00 | dd:0.053; aGD:0.048; dH:0.360 d:0.218; dCM:0.486; dG:0.218; lGD:0.271; rT:2.42; rD:-0.49; rF:-307.08; MX:71.55 -26.82 8444.00| R -305.143, EO=F  N
-E:41, A:0; j:0.45, I:0; S:-1; P:0.60,1.75,-0.00 | dd:-0.133; aGD:-0.088; dH:0.519 d:0.351; dCM:0.645; dG:0.351; lGD:0.218; rT:-4.38; rD:-0.64; rF:0.00; MX:67.17 -27.47 8444.00| R -5.021, EO=F  N
-E:42, A:3; j:1.90, I:1; S:1; P:0.45,1.75,-0.00 | dd:0.033; aGD:0.003; dH:0.505 d:0.318; dCM:0.631; dG:0.318; lGD:0.351; rT:0.13; rD:-0.63; rF:-263.92; MX:67.30 -28.10 8180.08| R -264.424, EO=F  N
-E:43, A:3; j:2.05, I:1; S:1; P:0.45,1.90,-0.00 | dd:-0.012; aGD:-0.008; dH:0.510 d:0.330; dCM:0.636; dG:0.330; lGD:0.318; rT:-0.42; rD:-0.64; rF:-308.14; MX:66.88 -28.74 7871.94| R -309.194, EO=F  N
-E:44, A:3; j:2.15, I:1; S:1; P:0.45,2.00,-0.00 | dd:-0.000; aGD:-0.002; dH:0.510 d:0.330; dCM:0.636; dG:0.330; lGD:0.330; rT:-0.10; rD:-0.64; rF:-308.14; MX:66.78 -29.37 7563.80| R -308.877, EO=F  N
