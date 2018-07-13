@@ -69,6 +69,7 @@ DQN trains an NN for the Q value function. It uses the following techniques to l
 \section{Simulations}
 The simulation environment is in Gazebo. There exist two nodes. The camera node and the collision node. The agent should subscribe to the topics of these nodes. The agent is an instance of the dqnAgent provided by the jetson-reinforcement library.\\
 There were two options for controlling the arm joints. The first one is the velocity control. In the beginning, it was the preferred approach; however, the agent using this approach was not successful. One issue with this controller is, it requires an additional action for not changing any velocities. The other method was the position control. This approach directly changes the position of the joint.\\
+\subsection{Rewards}
 There are three rewards in general. They can be listed as follows.
 \begin{itemize}
 \item Reward for the successful end of episode
@@ -82,7 +83,16 @@ There are three rewards in general. They can be listed as follows.
 \end{itemize}
 There are two parameters for these rewards. They are REWARD\textunderscore WIN and REWARD\textunderscore LOSS, and they were set to 100 and -100 respectively, in order to increase the difference between the end of episode rewards and episode rewards. However, there are multipliers for these parameters.\\
 There are five different distance functions. The first one existed in both tasks, but the others were explored in the second task. The first function, BoxDistance, calculates the distance between the nearest points of two boxes, the gripper and the tube.\\
-The hyperparameters used in both tasks are given in Table~\ref{table:params}. Since the hardware that the project run on has limited resources, it was required to decrease the complexity of the neural network.
+\subsection{Hyperparameters}
+The hyperparameters used in both tasks are given in Table~\ref{table:params}. Since the hardware that the project run on has limited resources, it was required to decrease the complexity of the neural network.\\
+Input size, the input width, and the input height parameters were set to 64. Previously tried values were 512, 256, 128 and all of them caused the out of memory error for the GPU, before 100 episodes. Besides, the camera image size was 64x64, and 64 produced satisfactory results.\\
+There were two different optimizers, RMSprop and ADAM, which work similarly. RMSprop tended to produce better results during the project. RMSprop helps the gradient descent to reach the minima faster.\\
+Learning rate parameters that applied during the first task were 0.005, 0.01, 0.02, 0.05. As the reward functions define successfully, the higher learning rate helped much. As a result, the robot failed only in the first episode from 102 episodes.\\
+For the second task, it was much harder to come up with well defining reward functions. Therefore, the robot did not perform well in the first episodes. And this led the agent to be biased. Again lower parameters such as 0.005 and 0.01 were applied. However, they did not provide satisfying results. The agent worked best with a learning rate of 0.02 for the second task.\\
+The batch size value was eight in the project repository, and it wasn't changed for the first task. In the second task, it was increased to 16. Higher batch size help network to learn better; however, raising it would cause computational overhead.\\
+Replay memory parameter left unchanged at 10000. Higher values would speed up the learning process on the other hand increase the memory requirements. \\
+Use of LSTM would enhance the learning as it uses two memories for long-term and short-term. LSTM size decreased to 16 for the first task to raise the computational performance, since using larger LSTM size values would increase the memory requirements. \\
+The number of actions, there were three joints, and the degree of freedom was 3. There were two actions for each joint. Rotate on in one direction or the opposite direction. For the velocity controller, the actions were changing the velocities. Therefore, if velocity were not zero the joint would be still rotating. It was experimented to add another action in which no joints accelerate or decelerate. This new action did not help much but increased the complexity.
 \begin{table}[h]
 \caption{Hyperparameters}
 \label{table:params}
@@ -106,6 +116,8 @@ BATCH\textunderscore SIZE & 8 & 16 \\
 USE\textunderscore LSTM & true & true \\
 \hline
 LSTM\textunderscore SIZE & 16 & 16 \\
+\hline
+NUM\textunderscore ACTIONS & 6 & 6 \\
 \hline
 \end{tabular}
 \end{center}
@@ -154,7 +166,7 @@ During the second task, additional cost functions were created. These are as fol
 \section{Results}
 The ArmPlugin.cpp file was able to utilize the jetson-reinforcement framework and to teach a robot arm to successfully reach the object. The previous sections describe the reward functions, hyperparameters and this section includes the results and screenshots.
 \subsection{Task 1}
-Figures~\ref{fig:t1s841},~\ref{fig:t1s842},~\ref{fig:t1s991}, and ~\ref{fig:t1s992} shows the screenshots of a successful run for Task 1.
+Figures~\ref{fig:t1s841},~\ref{fig:t1s842},~\ref{fig:t1s991}, ~\ref{fig:t1s992},~\ref{fig:t1s1001}, and ~\ref{fig:t1s1002} shows the screenshots of a successful run for Task 1. The console output can be viewed from Task1.txt document under the docs folder of the project repository\cite{git:t1c}. Figure~\ref{fig:t1ec} show a screenshot. The accuracy summary also exists in the same folder\cite{git:t1a}. Figure~\ref{fig:t1as} show a screenshot.
 \begin{figure}[thpb]
       \centering
       \includegraphics[width=\linewidth]{figures/Task1_Step84_1.png}
@@ -182,8 +194,38 @@ Figures~\ref{fig:t1s841},~\ref{fig:t1s842},~\ref{fig:t1s991}, and ~\ref{fig:t1s9
       \caption{Task 1 Episode 99 Console}
       \label{fig:t1s992}
 \end{figure}
+
+\begin{figure}[thpb]
+      \centering
+      \includegraphics[width=\linewidth]{figures/Task1_Step100_1.png}
+      \caption{Task 1 Episode 100 Gazebo}
+      \label{fig:t1s1001}
+\end{figure}
+
+\begin{figure}[thpb]
+      \centering
+      \includegraphics[width=\linewidth]{figures/Task1_Step100_2.png}
+      \caption{Task 1 Episode 100 Console}
+      \label{fig:t1s1002}
+\end{figure}
+
+
+\begin{figure}[thpb]
+      \centering
+      \includegraphics[width=\linewidth]{figures/Task1EndConsole.png}
+      \caption{Task 1 End Console Output}
+      \label{fig:t1ec}
+\end{figure}
+
+\begin{figure}[thpb]
+      \centering
+      \includegraphics[width=\linewidth]{figures/Task1EndAcc.png}
+      \caption{Task 1 Accuracy Summary}
+      \label{fig:t1as}
+\end{figure}
+
 \subsection{Task 2}
-Figures~\ref{fig:t2s551},~\ref{fig:t2s552},~\ref{fig:t2s941},~\ref{fig:t2s942},~\ref{fig:t2s1131}, and ~\ref{fig:t2s1132} shows the screenshots of a successful run for Task 1.
+Figures~\ref{fig:t2s551},~\ref{fig:t2s552},~\ref{fig:t2s941},~\ref{fig:t2s942},~\ref{fig:t2s1131}, and ~\ref{fig:t2s1132} shows the screenshots of a successful run for Task 2. The console output can be viewed from Task2.txt document under the docs folder of the project repository\cite{git:t2c}. Figure~\ref{fig:t2ec} show a screenshot. The accuracy summary also exists in the same folder\cite{git:t2a}. Figure~\ref{fig:t2as} show a screenshot.
 \begin{figure}[thpb]
       \centering
       \includegraphics[width=\linewidth]{figures/Task2_Step55_1.png}
@@ -226,6 +268,21 @@ Figures~\ref{fig:t2s551},~\ref{fig:t2s552},~\ref{fig:t2s941},~\ref{fig:t2s942},~
       \label{fig:t2s1132}
 \end{figure}
 
+
+\begin{figure}[thpb]
+      \centering
+      \includegraphics[width=\linewidth]{figures/Task2EndConsole.png}
+      \caption{Task 2 End Console Output}
+      \label{fig:t2ec}
+\end{figure}
+
+\begin{figure}[thpb]
+      \centering
+      \includegraphics[width=\linewidth]{figures/Task2EndAcc.png}
+      \caption{Task 2 Accuracy Summary}
+      \label{fig:t2as}
+\end{figure}
+
 \subsection{Technical Comparison} % only facts
 The accuracy graph for both of the tasks are given in the Figures~\ref{fig:t1g},~\ref{fig:t2g}. Red line and points show the Reward value. For Task 2, the values are divided by 10 on the graph. The Yellow line and points show 100 for win and 0 for loss. Blue line shows the accuracy as the percentage value.
 \begin{figure}[thpb]
@@ -243,17 +300,37 @@ The accuracy graph for both of the tasks are given in the Figures~\ref{fig:t1g},
 \end{figure}
 
 \section{Discussion}
-The algorithm was able to teach the agent for the objective, and the robot arm was able to reach the object which was always in the same location.
+The algorithm was able to teach the agent for the objective, and the robot arm was able to reach the object which was always in the same location. However, there were limitations on the agent's progress. The results were not good enough for a problem where the object location changes randomly.\\
+The first task has an accuracy rate of 99.02\%. The robot only failed in the first one of the 102 episodes. This performance is well enough; however, the outcomes should be transferred to harder problems.\\
+The second task lasted 114 episodes. The robot arm reached to target from 94 of them. The accuracy was 82.46\%. The success rate was improving with each trial. Testing for more episodes would probably result in higher accuracy, but the run was terminated to prevent out of memory error.  The accuracy graph shows that the agent has only one failure in the last 56 episodes, which will reach to an accuracy of 98.21\%.\\
+On the other hand, the robot had failed in all of the first nine episodes. This shows that the reward functions are not good enough. The agent failed four episodes consecutively between the episodes 56 and 59. All of them caused by hitting the ground. Consequently, there is room for improving the ground contact gripper failure. As mentioned in the rewards section, increasing the penalty for gripper touching the ground decreased the fraction of successful episodes. The maximum frames reached in an episode was 71, and it again resulted in ground contact.\\
+Table~\ref{table:t2r} shows the episode results for Task 2 distributed over reasons.
+\begin{table}[h]
+\caption{Task 2 Results}
+\label{table:t2r}
+\begin{center}
+\begin{tabular}{|c||c||c||c|}
+\hline
+Reason & Loss & Win\\
+\hline
+100 Frames & 0 & 0\\
+\hline
+Hit Ground & 11 & 0\\
+\hline
+Link Touch & 9 & 0\\
+\hline
+Gripper Base & 0 & 58\\
+\hline
+Gripper Middle & 0 & 36\\
+\hline
+Total & 20 & 94\\
+\hline
 
-Results: Explain the results obtained for both objectives. Include discussion on the DQN agent's performance for both objectives. Include watermarked images, or videos of your results.
+\end{tabular}
+\end{center}
+\end{table}
 
-Student should describe and briefly explain the results they achieved for both objectives. The discussion should also include their comments on the DQN agent's performance and if there were any shortcomings. Student should include either watermarked images of their results, or attach a video that displays the results and the arm in action.
-
-Future Work: Briefly discuss how you can improve your current results.
-
-Student should discuss on what approaches they could take to improve their results.
-
-The algorithm was able to create a map for each environment. The robot navigated for almost two laps in both of the worlds. Both of the map images look warped. The parameters for the algorithm should be optimized, but due to time limitations, the tunning operation would be future work.
+Besides improving the reward functions, enhancing the capacity of the neural network would help to achieve better results. Increasing the batch size, replay memory, LSTM size parameters are promising to obtain more successful outcomes.
 
 \section{Conclusion / Future work}
 The parameters and the rewards can be improved. Besides, the algorithm may enable the robot to grasp the object. The agent should be trained to access objects that located randomly. First, only on the x-axis, then both on the x-axis and y-axis.\\

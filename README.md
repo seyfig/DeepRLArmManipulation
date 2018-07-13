@@ -6,6 +6,57 @@ This project is based on the Nvidia open source project "jetson-reinforcement" d
 1. Have any part of the robot arm touch the object of interest, with at least a 90% accuracy.
 2. Have only the gripper base of the robot arm touch the object, with at least a 80% accuracy.
 
+[//]: # (Image References)
+
+[t1gaz]: ./docs/report/figures/Task1_Step99_1.png "Task 1 Gazebo"
+[t1con]: ./docs/report/figures/Task1_Step99_2.png "Task 1 Console"
+[t2gaz]: ./docs/report/figures/Task2_Step113_1.png "Task 2 Gazebo"
+[t2con]: ./docs/report/figures/Task2_Step113_2.png "Task 2 Console"
+[t1grp]: ./docs/report/figures/Task1.png "Task 1 Results Graph"
+[t2grp]: ./docs/report/figures/Task2.png "Task 2 Results Graph"
+
+
+
+## Project Report
+[The project report](https://github.com/seyfig/DeepRLArmManipulation/blob/master/docs/Writeup_Report.pdf), and the output files are located under the docs folder.
+
+[The console output for Task 1](https://github.com/seyfig/DeepRLArmManipulation/blob/master/docs/Task1.txt)
+[The console output for Task 2](https://github.com/seyfig/DeepRLArmManipulation/blob/master/docs/Task2.txt)
+[The accuracy summary for Task 1](https://github.com/seyfig/DeepRLArmManipulation/blob/master/docs/Accuracy1.txt)
+[The accuracy summary for Task 1](https://github.com/seyfig/DeepRLArmManipulation/blob/master/docs/Accuracy2.txt)
+
+The screenshots for Task 1
+
+
+![alt text][t1gaz]
+
+
+![alt text][t1con]
+
+
+The screenshots for Task 2
+
+
+![alt text][t2gaz]
+
+
+![alt text][t2con]
+
+
+
+The results graph for Task 1
+
+
+![alt text][t1grp]
+
+
+The results graph for Task 2
+
+
+![alt text][t2grp]
+
+
+
 ## Building from Source (Nvidia Jetson TX2)
 
 Run the following commands from terminal to build the project from source:
@@ -27,11 +78,11 @@ During the `cmake` step, Torch will be installed so it can take awhile. It will 
 
 To make sure that the reinforcement learners are still functioning properly from C++, a simple example of using the API called [`catch`](samples/catch/catch.cpp) is provided.  Similar in concept to pong, a ball drops from the top of the screen which the agent must catch before the ball reaches the bottom of the screen, by moving it's paddle left or right.
 
-To test the textual [`catch`](samples/catch/catch.cpp) sample, run the following executable from the terminal.  After around 100 episodes or so, the agent should start winning the episodes nearly 100% of the time:  
+To test the textual [`catch`](samples/catch/catch.cpp) sample, run the following executable from the terminal.  After around 100 episodes or so, the agent should start winning the episodes nearly 100% of the time:
 
 ``` bash
 $ cd RoboND-DeepRL-Project/build/aarch64/bin
-$ ./catch 
+$ ./catch
 [deepRL]  input_width:    64
 [deepRL]  input_height:   64
 [deepRL]  input_channels: 1
@@ -53,13 +104,13 @@ $ ./catch
 [deepRL]  pyTorch THCState  0x0318D490
 [deepRL]  nn.Conv2d() output size = 800
 WON! episode 1
-001 for 001  (1.0000)  
+001 for 001  (1.0000)
 WON! episode 5
-004 for 005  (0.8000)  
+004 for 005  (0.8000)
 WON! episode 10
-007 for 010  (0.7000)  
+007 for 010  (0.7000)
 WON! episode 15
-010 for 015  (0.6667)  
+010 for 015  (0.6667)
 WON! episode 20
 013 for 020  (0.6500)  13 of last 20  (0.65)  (max=0.65)
 WON! episode 25
