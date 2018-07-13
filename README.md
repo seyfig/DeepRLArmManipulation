@@ -21,9 +21,17 @@ This project is based on the Nvidia open source project "jetson-reinforcement" d
 [The project report](https://github.com/seyfig/DeepRLArmManipulation/blob/master/docs/Writeup_Report.pdf), and the output files are located under the docs folder.
 
 [The console output for Task 1](https://github.com/seyfig/DeepRLArmManipulation/blob/master/docs/Task1.txt)
+
+
 [The console output for Task 2](https://github.com/seyfig/DeepRLArmManipulation/blob/master/docs/Task2.txt)
+
+
 [The accuracy summary for Task 1](https://github.com/seyfig/DeepRLArmManipulation/blob/master/docs/Accuracy1.txt)
+
+
 [The accuracy summary for Task 1](https://github.com/seyfig/DeepRLArmManipulation/blob/master/docs/Accuracy2.txt)
+
+
 
 The screenshots for Task 1
 
